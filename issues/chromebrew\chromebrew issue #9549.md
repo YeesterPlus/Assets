@@ -1,6 +1,6 @@
 CFault
 <details><summary>Error</summary>
-`
+```
 wine: created the configuration directory '/home/chronos/user/.wine'
 wine: could not open working directory L"C:\\windows\\system32\\", starting in the Windows directory.
 002c:fixme:actctx:parse_depend_manifests Could not find dependent assembly L"Microsoft.Windows.Common-Controls" (6.0.0.0)
@@ -37,6 +37,8 @@ wine: could not open working directory L"C:\\windows\\system32\\", starting in t
 006c:err:setupapi:create_dest_file failed to create L"C:\\windows\\system32\\msxml4.dll" (error=1921)
 006c:err:setupapi:create_dest_file failed to create L"C:\\windows\\system32\\msxml6.dll" (error=1921)
 006c:err:setupapi:create_dest_file failed to create L"C:\\windows\\system32\\shdocvw.dll" (error=1921)
+  ```
+  ```
 006c:err:setupapi:create_dest_file failed to create L"C:\\windows\\system32\\gecko\\plugin\\npmshtml.dll" (error=1921)
 006c:err:setupapi:create_dest_file failed to create L"C:\\windows\\system32\\Speech\\Common\\sapi.dll" (error=1921)
 006c:err:setupapi:create_dest_file failed to create L"C:\\windows\\system32\\Speech\\Engines\\TTS\\msttsengine.dll" (error=1921)
@@ -359,6 +361,8 @@ wine: could not open working directory L"C:\\windows\\system32\\", starting in t
 006c:err:setupapi:create_dest_file failed to create L"C:\\windows\\system32\\mlang.dll" (error=1921)
 006c:err:setupapi:create_dest_file failed to create L"C:\\windows\\system32\\mmcndmgr.dll" (error=1921)
 006c:err:setupapi:create_dest_file failed to create L"C:\\windows\\system32\\mmdevapi.dll" (error=1921)
+  ```
+  ```
 006c:err:setupapi:create_dest_file failed to create L"C:\\windows\\system32\\mp3dmod.dll" (error=1921)
 006c:err:setupapi:create_dest_file failed to create L"C:\\windows\\system32\\mpr.dll" (error=1921)
 006c:err:setupapi:create_dest_file failed to create L"C:\\windows\\system32\\mprapi.dll" (error=1921)
@@ -745,6 +749,8 @@ wine: could not open working directory L"C:\\windows\\system32\\", starting in t
 006c:err:setupapi:create_dest_file failed to create L"C:\\windows\\system32\\xinput9_1_0.dll" (error=1921)
 006c:err:setupapi:create_dest_file failed to create L"C:\\windows\\system32\\xinputuap.dll" (error=1921)
 006c:err:setupapi:create_dest_file failed to create L"C:\\windows\\system32\\xmllite.dll" (error=1921)
+  ```
+  ```
 006c:err:setupapi:create_dest_file failed to create L"C:\\windows\\system32\\xolehlp.dll" (error=1921)
 006c:err:setupapi:create_dest_file failed to create L"C:\\windows\\system32\\xpsprint.dll" (error=1921)
 006c:err:setupapi:create_dest_file failed to create L"C:\\windows\\system32\\xpssvcs.dll" (error=1921)
@@ -846,7 +852,7 @@ wine: configuration in L"home/chronos/user/.wine" has been updated.
 002c:err:shell:SHGetFolderPathAndSubDirW Failed to create directory L"C:\\users\\chronos".
 002c:err:shell:SHGetFolderPathAndSubDirW Failed to create directory L"C:\\users\\chronos\\AppData\\Local".
 wine: could not load kernel32.dll, status c0000135
-`
+```
 </details>
 <details><summary>Details</summary>
 - Architecture: x86_64 (x86_64)
