@@ -1,6 +1,6 @@
 CFault
 
-[Error](https://github.com/yeesterPlus/Assets/blob/main/issues/chromebrew%5Cchromebrew%20issue%20%239549.md)
+[Error](https://github.com/yeesterPlus/Assets/blob/main/issues/chromebrew%5Cchromebrew%20issue%20%239549.md%5cError.md)
 <details><summary>Details</summary>
 - Architecture: x86_64 (x86_64)
 - Processor vendor: GenuineIntel
