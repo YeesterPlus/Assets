@@ -1,4 +1,5 @@
 CFault
+
 [Error](https://github.com/yeesterPlus/Assets/blob/main/issues/chromebrew%5Cchromebrew%20issue%20%239549.md)
 <details><summary>Details</summary>
 - Architecture: x86_64 (x86_64)
