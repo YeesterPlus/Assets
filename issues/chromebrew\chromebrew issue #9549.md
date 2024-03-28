@@ -1,6 +1,6 @@
 CFault
 <details><summary>Error</summary>
-```
+`
 wine: created the configuration directory '/home/chronos/user/.wine'
 wine: could not open working directory L"C:\\windows\\system32\\", starting in the Windows directory.
 002c:fixme:actctx:parse_depend_manifests Could not find dependent assembly L"Microsoft.Windows.Common-Controls" (6.0.0.0)
@@ -846,7 +846,7 @@ wine: configuration in L"home/chronos/user/.wine" has been updated.
 002c:err:shell:SHGetFolderPathAndSubDirW Failed to create directory L"C:\\users\\chronos".
 002c:err:shell:SHGetFolderPathAndSubDirW Failed to create directory L"C:\\users\\chronos\\AppData\\Local".
 wine: could not load kernel32.dll, status c0000135
-```
+`
 </details>
 <details><summary>Details</summary>
 - Architecture: x86_64 (x86_64)
