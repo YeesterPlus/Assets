@@ -1,0 +1,611 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Users\Ashton Drye\AppData\Roaming\npm\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.8.1
+2 info using node@v22.3.0
+3 silly config load:file:C:\Users\Ashton Drye\AppData\Roaming\npm\node_modules\npm\npmrc
+4 warn config production Use `--omit=dev` instead.
+5 silly config load:file:C:\Users\Ashton Drye\.npmrc
+6 silly config load:file:C:\Users\Ashton Drye\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm install windows-build-tools
+8 verbose argv "install" "--global" "--production" "windows-build-tools"
+9 verbose logfile logs-max:10 dir:C:\Users\Ashton Drye\AppData\Local\npm-cache\_logs\2024-06-27T19_18_29_518Z-
+10 verbose logfile C:\Users\Ashton Drye\AppData\Local\npm-cache\_logs\2024-06-27T19_18_29_518Z-debug-0.log
+11 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+12 silly logfile start cleaning logs, removing 1 files
+13 silly logfile done cleaning log files
+14 silly idealTree buildDeps
+15 silly fetch manifest windows-build-tools@*
+16 silly packumentCache full:https://registry.npmjs.org/windows-build-tools cache-miss
+17 http fetch GET 200 https://registry.npmjs.org/windows-build-tools 13ms (cache hit)
+18 silly packumentCache full:https://registry.npmjs.org/windows-build-tools set size:355707 disposed:false
+19 silly placeDep ROOT windows-build-tools@5.2.2 OK for:  want: *
+20 silly fetch manifest chalk@^2.4.2
+21 silly packumentCache full:https://registry.npmjs.org/chalk cache-miss
+22 silly fetch manifest debug@^4.1.1
+23 silly packumentCache full:https://registry.npmjs.org/debug cache-miss
+24 silly fetch manifest fs-extra@^8.0.1
+25 silly packumentCache full:https://registry.npmjs.org/fs-extra cache-miss
+26 silly fetch manifest in-gfw@^1.2.0
+27 silly packumentCache full:https://registry.npmjs.org/in-gfw cache-miss
+28 silly fetch manifest nugget@^2.0.1
+29 silly packumentCache full:https://registry.npmjs.org/nugget cache-miss
+30 silly fetch manifest string-width@^4.1.0
+31 silly packumentCache full:https://registry.npmjs.org/string-width cache-miss
+32 http fetch GET 200 https://registry.npmjs.org/debug 16ms (cache hit)
+33 silly packumentCache full:https://registry.npmjs.org/debug set size:273438 disposed:false
+34 http fetch GET 200 https://registry.npmjs.org/chalk 20ms (cache hit)
+35 silly packumentCache full:https://registry.npmjs.org/chalk set size:141416 disposed:false
+36 http fetch GET 200 https://registry.npmjs.org/nugget 22ms (cache hit)
+37 silly packumentCache full:https://registry.npmjs.org/nugget set size:40293 disposed:false
+38 http fetch GET 200 https://registry.npmjs.org/fs-extra 23ms (cache hit)
+39 silly packumentCache full:https://registry.npmjs.org/fs-extra set size:220826 disposed:false
+40 http fetch GET 200 https://registry.npmjs.org/in-gfw 27ms (cache hit)
+41 silly packumentCache full:https://registry.npmjs.org/in-gfw set size:17389 disposed:false
+42 http fetch GET 200 https://registry.npmjs.org/string-width 27ms (cache hit)
+43 silly packumentCache full:https://registry.npmjs.org/string-width set size:59470 disposed:false
+44 silly placeDep node_modules/windows-build-tools chalk@2.4.2 OK for: windows-build-tools@5.2.2 want: ^2.4.2
+45 silly placeDep node_modules/windows-build-tools debug@4.3.5 OK for: windows-build-tools@5.2.2 want: ^4.1.1
+46 silly placeDep node_modules/windows-build-tools fs-extra@8.1.0 OK for: windows-build-tools@5.2.2 want: ^8.0.1
+47 silly placeDep node_modules/windows-build-tools in-gfw@1.2.0 OK for: windows-build-tools@5.2.2 want: ^1.2.0
+48 silly placeDep node_modules/windows-build-tools nugget@2.2.0 OK for: windows-build-tools@5.2.2 want: ^2.0.1
+49 silly placeDep node_modules/windows-build-tools string-width@4.2.3 OK for: windows-build-tools@5.2.2 want: ^4.1.0
+50 silly fetch manifest ansi-styles@^3.2.1
+51 silly packumentCache full:https://registry.npmjs.org/ansi-styles cache-miss
+52 silly fetch manifest escape-string-regexp@^1.0.5
+53 silly packumentCache full:https://registry.npmjs.org/escape-string-regexp cache-miss
+54 silly fetch manifest supports-color@^5.3.0
+55 silly packumentCache full:https://registry.npmjs.org/supports-color cache-miss
+56 silly fetch manifest ms@2.1.2
+57 silly packumentCache full:https://registry.npmjs.org/ms cache-miss
+58 silly fetch manifest graceful-fs@^4.2.0
+59 silly packumentCache full:https://registry.npmjs.org/graceful-fs cache-miss
+60 silly fetch manifest jsonfile@^4.0.0
+61 silly packumentCache full:https://registry.npmjs.org/jsonfile cache-miss
+62 silly fetch manifest universalify@^0.1.0
+63 silly packumentCache full:https://registry.npmjs.org/universalify cache-miss
+64 silly fetch manifest glob@^7.1.2
+65 silly packumentCache full:https://registry.npmjs.org/glob cache-miss
+66 silly fetch manifest is-wsl@^1.1.0
+67 silly packumentCache full:https://registry.npmjs.org/is-wsl cache-miss
+68 silly fetch manifest mem@^3.0.1
+69 silly packumentCache full:https://registry.npmjs.org/mem cache-miss
+70 silly fetch manifest debug@^2.1.3
+71 silly packumentCache full:https://registry.npmjs.org/debug cache-hit
+72 silly fetch manifest minimist@^1.1.0
+73 silly packumentCache full:https://registry.npmjs.org/minimist cache-miss
+74 http fetch GET 200 https://registry.npmjs.org/escape-string-regexp 14ms (cache hit)
+75 silly packumentCache full:https://registry.npmjs.org/escape-string-regexp set size:22244 disposed:false
+76 silly fetch manifest pretty-bytes@^4.0.2
+77 silly packumentCache full:https://registry.npmjs.org/pretty-bytes cache-miss
+78 http fetch GET 200 https://registry.npmjs.org/ansi-styles 50ms (cache hit)
+79 silly packumentCache full:https://registry.npmjs.org/ansi-styles set size:66356 disposed:false
+80 silly fetch manifest progress-stream@^1.1.0
+81 silly packumentCache full:https://registry.npmjs.org/progress-stream cache-miss
+82 http fetch GET 200 https://registry.npmjs.org/supports-color 51ms (cache hit)
+83 silly packumentCache full:https://registry.npmjs.org/supports-color set size:113904 disposed:false
+84 silly fetch manifest request@^2.45.0
+85 silly packumentCache full:https://registry.npmjs.org/request cache-miss
+86 http fetch GET 200 https://registry.npmjs.org/universalify 55ms (cache hit)
+87 silly packumentCache full:https://registry.npmjs.org/universalify set size:19431 disposed:false
+88 silly fetch manifest single-line-log@^1.1.2
+89 silly packumentCache full:https://registry.npmjs.org/single-line-log cache-miss
+90 http fetch GET 200 https://registry.npmjs.org/ms 57ms (cache hit)
+91 silly packumentCache full:https://registry.npmjs.org/ms set size:84885 disposed:false
+92 silly fetch manifest throttleit@0.0.2
+93 silly packumentCache full:https://registry.npmjs.org/throttleit cache-miss
+94 http fetch GET 200 https://registry.npmjs.org/jsonfile 58ms (cache hit)
+95 silly packumentCache full:https://registry.npmjs.org/jsonfile set size:49758 disposed:false
+96 silly fetch manifest emoji-regex@^8.0.0
+97 silly packumentCache full:https://registry.npmjs.org/emoji-regex cache-miss
+98 http fetch GET 200 https://registry.npmjs.org/mem 61ms (cache hit)
+99 silly packumentCache full:https://registry.npmjs.org/mem set size:109940 disposed:false
+100 silly fetch manifest is-fullwidth-code-point@^3.0.0
+101 silly packumentCache full:https://registry.npmjs.org/is-fullwidth-code-point cache-miss
+102 http fetch GET 200 https://registry.npmjs.org/is-wsl 62ms (cache hit)
+103 silly packumentCache full:https://registry.npmjs.org/is-wsl set size:18741 disposed:false
+104 silly fetch manifest strip-ansi@^6.0.1
+105 silly packumentCache full:https://registry.npmjs.org/strip-ansi cache-miss
+106 http fetch GET 200 https://registry.npmjs.org/pretty-bytes 57ms (cache hit)
+107 silly packumentCache full:https://registry.npmjs.org/pretty-bytes set size:57181 disposed:false
+108 http fetch GET 200 https://registry.npmjs.org/progress-stream 22ms (cache hit)
+109 silly packumentCache full:https://registry.npmjs.org/progress-stream set size:25403 disposed:false
+110 http fetch GET 200 https://registry.npmjs.org/request 19ms (cache hit)
+111 silly packumentCache full:https://registry.npmjs.org/request set size:307320 disposed:false
+112 http fetch GET 200 https://registry.npmjs.org/single-line-log 22ms (cache hit)
+113 silly packumentCache full:https://registry.npmjs.org/single-line-log set size:20154 disposed:false
+114 http fetch GET 200 https://registry.npmjs.org/throttleit 19ms (cache hit)
+115 silly packumentCache full:https://registry.npmjs.org/throttleit set size:14001 disposed:false
+116 http fetch GET 200 https://registry.npmjs.org/emoji-regex 19ms (cache hit)
+117 silly packumentCache full:https://registry.npmjs.org/emoji-regex set size:82895 disposed:false
+118 http fetch GET 200 https://registry.npmjs.org/is-fullwidth-code-point 16ms (cache hit)
+119 silly packumentCache full:https://registry.npmjs.org/is-fullwidth-code-point set size:12553 disposed:false
+120 http fetch GET 200 https://registry.npmjs.org/strip-ansi 15ms (cache hit)
+121 silly packumentCache full:https://registry.npmjs.org/strip-ansi set size:43180 disposed:false
+122 http fetch GET 200 https://registry.npmjs.org/glob 658ms (cache revalidated)
+123 silly packumentCache full:https://registry.npmjs.org/glob set size:418464 disposed:false
+124 http fetch GET 200 https://registry.npmjs.org/graceful-fs 670ms (cache revalidated)
+125 silly packumentCache full:https://registry.npmjs.org/graceful-fs set size:124285 disposed:false
+126 http fetch GET 200 https://registry.npmjs.org/minimist 800ms (cache revalidated)
+127 silly packumentCache full:https://registry.npmjs.org/minimist set size:77097 disposed:false
+128 silly placeDep node_modules/windows-build-tools ansi-styles@3.2.1 OK for: chalk@2.4.2 want: ^3.2.1
+129 silly placeDep node_modules/windows-build-tools escape-string-regexp@1.0.5 OK for: chalk@2.4.2 want: ^1.0.5
+130 silly placeDep node_modules/windows-build-tools supports-color@5.5.0 OK for: chalk@2.4.2 want: ^5.3.0
+131 silly fetch manifest color-convert@^1.9.0
+132 silly packumentCache full:https://registry.npmjs.org/color-convert cache-miss
+133 silly fetch manifest has-flag@^3.0.0
+134 silly packumentCache full:https://registry.npmjs.org/has-flag cache-miss
+135 http fetch GET 200 https://registry.npmjs.org/has-flag 5ms (cache hit)
+136 silly packumentCache full:https://registry.npmjs.org/has-flag set size:15180 disposed:false
+137 http fetch GET 200 https://registry.npmjs.org/color-convert 5ms (cache hit)
+138 silly packumentCache full:https://registry.npmjs.org/color-convert set size:61781 disposed:false
+139 silly placeDep node_modules/windows-build-tools color-convert@1.9.3 OK for: ansi-styles@3.2.1 want: ^1.9.0
+140 silly fetch manifest color-name@1.1.3
+141 silly packumentCache full:https://registry.npmjs.org/color-name cache-miss
+142 http fetch GET 200 https://registry.npmjs.org/color-name 2ms (cache hit)
+143 silly packumentCache full:https://registry.npmjs.org/color-name set size:16325 disposed:false
+144 silly placeDep node_modules/windows-build-tools color-name@1.1.3 OK for: color-convert@1.9.3 want: 1.1.3
+145 silly placeDep node_modules/windows-build-tools ms@2.1.2 OK for: debug@4.3.5 want: 2.1.2
+146 silly placeDep node_modules/windows-build-tools graceful-fs@4.2.11 OK for: fs-extra@8.1.0 want: ^4.2.0
+147 silly placeDep node_modules/windows-build-tools jsonfile@4.0.0 OK for: fs-extra@8.1.0 want: ^4.0.0
+148 silly placeDep node_modules/windows-build-tools universalify@0.1.2 OK for: fs-extra@8.1.0 want: ^0.1.0
+149 silly placeDep node_modules/windows-build-tools glob@7.2.3 OK for: in-gfw@1.2.0 want: ^7.1.2
+150 silly placeDep node_modules/windows-build-tools is-wsl@1.1.0 OK for: in-gfw@1.2.0 want: ^1.1.0
+151 silly placeDep node_modules/windows-build-tools mem@3.0.1 OK for: in-gfw@1.2.0 want: ^3.0.1
+152 silly fetch manifest once@^1.3.0
+153 silly packumentCache full:https://registry.npmjs.org/once cache-miss
+154 silly fetch manifest inflight@^1.0.4
+155 silly packumentCache full:https://registry.npmjs.org/inflight cache-miss
+156 silly fetch manifest inherits@2
+157 silly packumentCache full:https://registry.npmjs.org/inherits cache-miss
+158 silly fetch manifest minimatch@^3.1.1
+159 silly packumentCache full:https://registry.npmjs.org/minimatch cache-miss
+160 silly fetch manifest fs.realpath@^1.0.0
+161 silly packumentCache full:https://registry.npmjs.org/fs.realpath cache-miss
+162 silly fetch manifest path-is-absolute@^1.0.0
+163 silly packumentCache full:https://registry.npmjs.org/path-is-absolute cache-miss
+164 silly fetch manifest mimic-fn@^1.0.0
+165 silly packumentCache full:https://registry.npmjs.org/mimic-fn cache-miss
+166 silly fetch manifest p-is-promise@^1.1.0
+167 silly packumentCache full:https://registry.npmjs.org/p-is-promise cache-miss
+168 http fetch GET 200 https://registry.npmjs.org/mimic-fn 14ms (cache hit)
+169 silly packumentCache full:https://registry.npmjs.org/mimic-fn set size:22257 disposed:false
+170 http fetch GET 200 https://registry.npmjs.org/p-is-promise 15ms (cache hit)
+171 silly packumentCache full:https://registry.npmjs.org/p-is-promise set size:15898 disposed:false
+172 http fetch GET 200 https://registry.npmjs.org/once 80ms (cache revalidated)
+173 silly packumentCache full:https://registry.npmjs.org/once set size:11768 disposed:false
+174 http fetch GET 200 https://registry.npmjs.org/inherits 104ms (cache revalidated)
+175 silly packumentCache full:https://registry.npmjs.org/inherits set size:12925 disposed:false
+176 http fetch GET 200 https://registry.npmjs.org/inflight 113ms (cache revalidated)
+177 silly packumentCache full:https://registry.npmjs.org/inflight set size:13140 disposed:false
+178 http fetch GET 200 https://registry.npmjs.org/minimatch 254ms (cache revalidated)
+179 silly packumentCache full:https://registry.npmjs.org/minimatch set size:393251 disposed:false
+180 http fetch GET 200 https://registry.npmjs.org/fs.realpath 271ms (cache revalidated)
+181 silly packumentCache full:https://registry.npmjs.org/fs.realpath set size:4806 disposed:false
+182 http fetch GET 200 https://registry.npmjs.org/path-is-absolute 288ms (cache revalidated)
+183 silly packumentCache full:https://registry.npmjs.org/path-is-absolute set size:8253 disposed:false
+184 silly placeDep node_modules/windows-build-tools fs.realpath@1.0.0 OK for: glob@7.2.3 want: ^1.0.0
+185 silly placeDep node_modules/windows-build-tools inflight@1.0.6 OK for: glob@7.2.3 want: ^1.0.4
+186 silly placeDep node_modules/windows-build-tools inherits@2.0.4 OK for: glob@7.2.3 want: 2
+187 silly placeDep node_modules/windows-build-tools minimatch@3.1.2 OK for: glob@7.2.3 want: ^3.1.1
+188 silly placeDep node_modules/windows-build-tools once@1.4.0 OK for: glob@7.2.3 want: ^1.3.0
+189 silly placeDep node_modules/windows-build-tools path-is-absolute@1.0.1 OK for: glob@7.2.3 want: ^1.0.0
+190 silly fetch manifest wrappy@1
+191 silly packumentCache full:https://registry.npmjs.org/wrappy cache-miss
+192 silly fetch manifest brace-expansion@^1.1.7
+193 silly packumentCache full:https://registry.npmjs.org/brace-expansion cache-miss
+194 silly fetch manifest wrappy@1
+195 silly packumentCache full:https://registry.npmjs.org/wrappy cache-miss
+196 http fetch GET 200 https://registry.npmjs.org/wrappy 87ms (cache revalidated)
+197 silly packumentCache full:https://registry.npmjs.org/wrappy set size:7682 disposed:false
+198 http fetch GET 200 https://registry.npmjs.org/wrappy 95ms (cache revalidated)
+199 silly packumentCache full:https://registry.npmjs.org/wrappy set size:7682 disposed:false
+200 silly packumentCache full:https://registry.npmjs.org/wrappy dispose
+201 http fetch GET 200 https://registry.npmjs.org/brace-expansion 108ms (cache revalidated)
+202 silly packumentCache full:https://registry.npmjs.org/brace-expansion set size:42345 disposed:false
+203 silly placeDep node_modules/windows-build-tools wrappy@1.0.2 OK for: inflight@1.0.6 want: 1
+204 silly placeDep node_modules/windows-build-tools mimic-fn@1.2.0 OK for: mem@3.0.1 want: ^1.0.0
+205 silly placeDep node_modules/windows-build-tools p-is-promise@1.1.0 OK for: mem@3.0.1 want: ^1.1.0
+206 silly placeDep node_modules/windows-build-tools brace-expansion@1.1.11 OK for: minimatch@3.1.2 want: ^1.1.7
+207 silly fetch manifest balanced-match@^1.0.0
+208 silly packumentCache full:https://registry.npmjs.org/balanced-match cache-miss
+209 silly fetch manifest concat-map@0.0.1
+210 silly packumentCache full:https://registry.npmjs.org/concat-map cache-miss
+211 http fetch GET 200 https://registry.npmjs.org/concat-map 96ms (cache revalidated)
+212 silly packumentCache full:https://registry.npmjs.org/concat-map set size:9290 disposed:false
+213 http fetch GET 200 https://registry.npmjs.org/balanced-match 114ms (cache revalidated)
+214 silly packumentCache full:https://registry.npmjs.org/balanced-match set size:33860 disposed:false
+215 silly placeDep node_modules/windows-build-tools balanced-match@1.0.2 OK for: brace-expansion@1.1.11 want: ^1.0.0
+216 silly placeDep node_modules/windows-build-tools concat-map@0.0.1 OK for: brace-expansion@1.1.11 want: 0.0.1
+217 silly placeDep node_modules/windows-build-tools/node_modules/nugget debug@2.6.9 OK for: nugget@2.2.0 want: ^2.1.3
+218 silly placeDep node_modules/windows-build-tools minimist@1.2.8 OK for: nugget@2.2.0 want: ^1.1.0
+219 silly placeDep node_modules/windows-build-tools pretty-bytes@4.0.2 OK for: nugget@2.2.0 want: ^4.0.2
+220 silly placeDep node_modules/windows-build-tools progress-stream@1.2.0 OK for: nugget@2.2.0 want: ^1.1.0
+221 silly placeDep node_modules/windows-build-tools request@2.88.2 OK for: nugget@2.2.0 want: ^2.45.0
+222 silly placeDep node_modules/windows-build-tools single-line-log@1.1.2 OK for: nugget@2.2.0 want: ^1.1.2
+223 silly placeDep node_modules/windows-build-tools throttleit@0.0.2 OK for: nugget@2.2.0 want: 0.0.2
+224 silly fetch manifest ms@2.0.0
+225 silly packumentCache full:https://registry.npmjs.org/ms cache-hit
+226 silly fetch manifest through2@~0.2.3
+227 silly packumentCache full:https://registry.npmjs.org/through2 cache-miss
+228 silly fetch manifest speedometer@~0.1.2
+229 silly packumentCache full:https://registry.npmjs.org/speedometer cache-miss
+230 silly fetch manifest aws-sign2@~0.7.0
+231 silly packumentCache full:https://registry.npmjs.org/aws-sign2 cache-miss
+232 silly fetch manifest aws4@^1.8.0
+233 silly packumentCache full:https://registry.npmjs.org/aws4 cache-miss
+234 silly fetch manifest caseless@~0.12.0
+235 silly packumentCache full:https://registry.npmjs.org/caseless cache-miss
+236 silly fetch manifest combined-stream@~1.0.6
+237 silly packumentCache full:https://registry.npmjs.org/combined-stream cache-miss
+238 silly fetch manifest extend@~3.0.2
+239 silly packumentCache full:https://registry.npmjs.org/extend cache-miss
+240 silly fetch manifest forever-agent@~0.6.1
+241 silly packumentCache full:https://registry.npmjs.org/forever-agent cache-miss
+242 silly fetch manifest form-data@~2.3.2
+243 silly packumentCache full:https://registry.npmjs.org/form-data cache-miss
+244 silly fetch manifest har-validator@~5.1.3
+245 silly packumentCache full:https://registry.npmjs.org/har-validator cache-miss
+246 silly fetch manifest http-signature@~1.2.0
+247 silly packumentCache full:https://registry.npmjs.org/http-signature cache-miss
+248 http fetch GET 200 https://registry.npmjs.org/caseless 12ms (cache hit)
+249 silly packumentCache full:https://registry.npmjs.org/caseless set size:17911 disposed:false
+250 silly fetch manifest is-typedarray@~1.0.0
+251 silly packumentCache full:https://registry.npmjs.org/is-typedarray cache-miss
+252 http fetch GET 200 https://registry.npmjs.org/through2 14ms (cache hit)
+253 silly packumentCache full:https://registry.npmjs.org/through2 set size:74174 disposed:false
+254 silly fetch manifest isstream@~0.1.2
+255 silly packumentCache full:https://registry.npmjs.org/isstream cache-miss
+256 http fetch GET 200 https://registry.npmjs.org/aws4 15ms (cache hit)
+257 silly packumentCache full:https://registry.npmjs.org/aws4 set size:93028 disposed:false
+258 silly fetch manifest json-stringify-safe@~5.0.1
+259 silly packumentCache full:https://registry.npmjs.org/json-stringify-safe cache-miss
+260 http fetch GET 200 https://registry.npmjs.org/combined-stream 16ms (cache hit)
+261 silly packumentCache full:https://registry.npmjs.org/combined-stream set size:40337 disposed:false
+262 silly fetch manifest mime-types@~2.1.19
+263 silly packumentCache full:https://registry.npmjs.org/mime-types cache-miss
+264 http fetch GET 200 https://registry.npmjs.org/speedometer 18ms (cache hit)
+265 silly packumentCache full:https://registry.npmjs.org/speedometer set size:10537 disposed:false
+266 silly fetch manifest oauth-sign@~0.9.0
+267 silly packumentCache full:https://registry.npmjs.org/oauth-sign cache-miss
+268 http fetch GET 200 https://registry.npmjs.org/forever-agent 17ms (cache hit)
+269 silly packumentCache full:https://registry.npmjs.org/forever-agent set size:10023 disposed:false
+270 silly fetch manifest performance-now@^2.1.0
+271 silly packumentCache full:https://registry.npmjs.org/performance-now cache-miss
+272 http fetch GET 200 https://registry.npmjs.org/form-data 18ms (cache hit)
+273 silly packumentCache full:https://registry.npmjs.org/form-data set size:117324 disposed:false
+274 silly fetch manifest qs@~6.5.2
+275 silly packumentCache full:https://registry.npmjs.org/qs cache-miss
+276 http fetch GET 200 https://registry.npmjs.org/aws-sign2 23ms (cache hit)
+277 silly packumentCache full:https://registry.npmjs.org/aws-sign2 set size:6079 disposed:false
+278 silly fetch manifest safe-buffer@^5.1.2
+279 silly packumentCache full:https://registry.npmjs.org/safe-buffer cache-miss
+280 http fetch GET 200 https://registry.npmjs.org/extend 22ms (cache hit)
+281 silly packumentCache full:https://registry.npmjs.org/extend set size:25974 disposed:false
+282 silly fetch manifest tough-cookie@~2.5.0
+283 silly packumentCache full:https://registry.npmjs.org/tough-cookie cache-miss
+284 http fetch GET 200 https://registry.npmjs.org/http-signature 21ms (cache hit)
+285 silly packumentCache full:https://registry.npmjs.org/http-signature set size:58585 disposed:false
+286 silly fetch manifest tunnel-agent@^0.6.0
+287 silly packumentCache full:https://registry.npmjs.org/tunnel-agent cache-miss
+288 http fetch GET 200 https://registry.npmjs.org/har-validator 24ms (cache hit)
+289 silly packumentCache full:https://registry.npmjs.org/har-validator set size:122031 disposed:false
+290 silly fetch manifest uuid@^3.3.2
+291 silly packumentCache full:https://registry.npmjs.org/uuid cache-miss
+292 http fetch GET 200 https://registry.npmjs.org/isstream 20ms (cache hit)
+293 silly packumentCache full:https://registry.npmjs.org/isstream set size:9114 disposed:false
+294 silly fetch manifest string-width@^1.0.1
+295 silly packumentCache full:https://registry.npmjs.org/string-width cache-hit
+296 http fetch GET 200 https://registry.npmjs.org/oauth-sign 18ms (cache hit)
+297 silly packumentCache full:https://registry.npmjs.org/oauth-sign set size:15915 disposed:false
+298 http fetch GET 200 https://registry.npmjs.org/is-typedarray 25ms (cache hit)
+299 silly packumentCache full:https://registry.npmjs.org/is-typedarray set size:3992 disposed:false
+300 http fetch GET 200 https://registry.npmjs.org/mime-types 21ms (cache hit)
+301 silly packumentCache full:https://registry.npmjs.org/mime-types set size:131008 disposed:false
+302 http fetch GET 200 https://registry.npmjs.org/performance-now 20ms (cache hit)
+303 silly packumentCache full:https://registry.npmjs.org/performance-now set size:19893 disposed:false
+304 http fetch GET 200 https://registry.npmjs.org/qs 19ms (cache hit)
+305 silly packumentCache full:https://registry.npmjs.org/qs set size:468213 disposed:false
+306 http fetch GET 200 https://registry.npmjs.org/tunnel-agent 19ms (cache hit)
+307 silly packumentCache full:https://registry.npmjs.org/tunnel-agent set size:12847 disposed:false
+308 http fetch GET 200 https://registry.npmjs.org/tough-cookie 21ms (cache hit)
+309 silly packumentCache full:https://registry.npmjs.org/tough-cookie set size:171825 disposed:false
+310 http fetch GET 200 https://registry.npmjs.org/uuid 19ms (cache hit)
+311 silly packumentCache full:https://registry.npmjs.org/uuid set size:281614 disposed:false
+312 http fetch GET 200 https://registry.npmjs.org/json-stringify-safe 103ms (cache revalidated)
+313 silly packumentCache full:https://registry.npmjs.org/json-stringify-safe set size:8806 disposed:false
+314 http fetch GET 200 https://registry.npmjs.org/safe-buffer 97ms (cache revalidated)
+315 silly packumentCache full:https://registry.npmjs.org/safe-buffer set size:41183 disposed:false
+316 silly placeDep node_modules/windows-build-tools speedometer@0.1.4 OK for: progress-stream@1.2.0 want: ~0.1.2
+317 silly placeDep node_modules/windows-build-tools through2@0.2.3 OK for: progress-stream@1.2.0 want: ~0.2.3
+318 silly fetch manifest readable-stream@~1.1.9
+319 silly packumentCache full:https://registry.npmjs.org/readable-stream cache-miss
+320 silly fetch manifest xtend@~2.1.1
+321 silly packumentCache full:https://registry.npmjs.org/xtend cache-miss
+322 http fetch GET 200 https://registry.npmjs.org/xtend 4ms (cache hit)
+323 silly packumentCache full:https://registry.npmjs.org/xtend set size:28314 disposed:false
+324 http fetch GET 200 https://registry.npmjs.org/readable-stream 5ms (cache hit)
+325 silly packumentCache full:https://registry.npmjs.org/readable-stream set size:272167 disposed:false
+326 silly placeDep node_modules/windows-build-tools aws-sign2@0.7.0 OK for: request@2.88.2 want: ~0.7.0
+327 silly placeDep node_modules/windows-build-tools aws4@1.13.0 OK for: request@2.88.2 want: ^1.8.0
+328 silly placeDep node_modules/windows-build-tools caseless@0.12.0 OK for: request@2.88.2 want: ~0.12.0
+329 silly placeDep node_modules/windows-build-tools combined-stream@1.0.8 OK for: request@2.88.2 want: ~1.0.6
+330 silly placeDep node_modules/windows-build-tools extend@3.0.2 OK for: request@2.88.2 want: ~3.0.2
+331 silly placeDep node_modules/windows-build-tools forever-agent@0.6.1 OK for: request@2.88.2 want: ~0.6.1
+332 silly placeDep node_modules/windows-build-tools form-data@2.3.3 OK for: request@2.88.2 want: ~2.3.2
+333 silly placeDep node_modules/windows-build-tools har-validator@5.1.5 OK for: request@2.88.2 want: ~5.1.3
+334 silly placeDep node_modules/windows-build-tools http-signature@1.2.0 OK for: request@2.88.2 want: ~1.2.0
+335 silly placeDep node_modules/windows-build-tools is-typedarray@1.0.0 OK for: request@2.88.2 want: ~1.0.0
+336 silly placeDep node_modules/windows-build-tools isstream@0.1.2 OK for: request@2.88.2 want: ~0.1.2
+337 silly placeDep node_modules/windows-build-tools json-stringify-safe@5.0.1 OK for: request@2.88.2 want: ~5.0.1
+338 silly placeDep node_modules/windows-build-tools mime-types@2.1.35 OK for: request@2.88.2 want: ~2.1.19
+339 silly placeDep node_modules/windows-build-tools oauth-sign@0.9.0 OK for: request@2.88.2 want: ~0.9.0
+340 silly placeDep node_modules/windows-build-tools performance-now@2.1.0 OK for: request@2.88.2 want: ^2.1.0
+341 silly placeDep node_modules/windows-build-tools qs@6.5.3 OK for: request@2.88.2 want: ~6.5.2
+342 silly placeDep node_modules/windows-build-tools safe-buffer@5.2.1 OK for: request@2.88.2 want: ^5.1.2
+343 silly placeDep node_modules/windows-build-tools tough-cookie@2.5.0 OK for: request@2.88.2 want: ~2.5.0
+344 silly placeDep node_modules/windows-build-tools tunnel-agent@0.6.0 OK for: request@2.88.2 want: ^0.6.0
+345 silly placeDep node_modules/windows-build-tools uuid@3.4.0 OK for: request@2.88.2 want: ^3.3.2
+346 silly fetch manifest delayed-stream@~1.0.0
+347 silly packumentCache full:https://registry.npmjs.org/delayed-stream cache-miss
+348 silly fetch manifest asynckit@^0.4.0
+349 silly packumentCache full:https://registry.npmjs.org/asynckit cache-miss
+350 silly fetch manifest mime-types@^2.1.12
+351 silly packumentCache full:https://registry.npmjs.org/mime-types cache-hit
+352 silly fetch manifest ajv@^6.12.3
+353 silly packumentCache full:https://registry.npmjs.org/ajv cache-miss
+354 silly fetch manifest har-schema@^2.0.0
+355 silly packumentCache full:https://registry.npmjs.org/har-schema cache-miss
+356 silly fetch manifest assert-plus@^1.0.0
+357 silly packumentCache full:https://registry.npmjs.org/assert-plus cache-miss
+358 silly fetch manifest jsprim@^1.2.2
+359 silly packumentCache full:https://registry.npmjs.org/jsprim cache-miss
+360 silly fetch manifest sshpk@^1.7.0
+361 silly packumentCache full:https://registry.npmjs.org/sshpk cache-miss
+362 silly fetch manifest mime-db@1.52.0
+363 silly packumentCache full:https://registry.npmjs.org/mime-db cache-miss
+364 silly fetch manifest psl@^1.1.28
+365 silly packumentCache full:https://registry.npmjs.org/psl cache-miss
+366 silly fetch manifest punycode@^2.1.1
+367 silly packumentCache full:https://registry.npmjs.org/punycode cache-miss
+368 http fetch GET 200 https://registry.npmjs.org/har-schema 12ms (cache hit)
+369 silly packumentCache full:https://registry.npmjs.org/har-schema set size:23124 disposed:false
+370 http fetch GET 200 https://registry.npmjs.org/assert-plus 13ms (cache hit)
+371 silly packumentCache full:https://registry.npmjs.org/assert-plus set size:16135 disposed:false
+372 http fetch GET 200 https://registry.npmjs.org/delayed-stream 14ms (cache hit)
+373 silly packumentCache full:https://registry.npmjs.org/delayed-stream set size:15820 disposed:false
+374 http fetch GET 200 https://registry.npmjs.org/asynckit 14ms (cache hit)
+375 silly packumentCache full:https://registry.npmjs.org/asynckit set size:17357 disposed:false
+376 http fetch GET 200 https://registry.npmjs.org/ajv 17ms (cache hit)
+377 silly packumentCache full:https://registry.npmjs.org/ajv set size:1805070 disposed:false
+378 http fetch GET 200 https://registry.npmjs.org/sshpk 26ms (cache hit)
+379 silly packumentCache full:https://registry.npmjs.org/sshpk set size:132915 disposed:false
+380 http fetch GET 200 https://registry.npmjs.org/jsprim 27ms (cache hit)
+381 silly packumentCache full:https://registry.npmjs.org/jsprim set size:49417 disposed:false
+382 http fetch GET 200 https://registry.npmjs.org/mime-db 28ms (cache hit)
+383 silly packumentCache full:https://registry.npmjs.org/mime-db set size:159062 disposed:false
+384 http fetch GET 200 https://registry.npmjs.org/punycode 29ms (cache hit)
+385 silly packumentCache full:https://registry.npmjs.org/punycode set size:61302 disposed:false
+386 http fetch GET 200 https://registry.npmjs.org/psl 30ms (cache hit)
+387 silly packumentCache full:https://registry.npmjs.org/psl set size:112921 disposed:false
+388 silly placeDep node_modules/windows-build-tools delayed-stream@1.0.0 OK for: combined-stream@1.0.8 want: ~1.0.0
+389 silly placeDep node_modules/windows-build-tools asynckit@0.4.0 OK for: form-data@2.3.3 want: ^0.4.0
+390 silly placeDep node_modules/windows-build-tools ajv@6.12.6 OK for: har-validator@5.1.5 want: ^6.12.3
+391 silly placeDep node_modules/windows-build-tools har-schema@2.0.0 OK for: har-validator@5.1.5 want: ^2.0.0
+392 silly fetch manifest fast-deep-equal@^3.1.1
+393 silly packumentCache full:https://registry.npmjs.org/fast-deep-equal cache-miss
+394 silly fetch manifest fast-json-stable-stringify@^2.0.0
+395 silly packumentCache full:https://registry.npmjs.org/fast-json-stable-stringify cache-miss
+396 silly fetch manifest json-schema-traverse@^0.4.1
+397 silly packumentCache full:https://registry.npmjs.org/json-schema-traverse cache-miss
+398 silly fetch manifest uri-js@^4.2.2
+399 silly packumentCache full:https://registry.npmjs.org/uri-js cache-miss
+400 http fetch GET 200 https://registry.npmjs.org/fast-json-stable-stringify 5ms (cache hit)
+401 silly packumentCache full:https://registry.npmjs.org/fast-json-stable-stringify set size:11337 disposed:false
+402 http fetch GET 200 https://registry.npmjs.org/fast-deep-equal 6ms (cache hit)
+403 silly packumentCache full:https://registry.npmjs.org/fast-deep-equal set size:48634 disposed:false
+404 http fetch GET 200 https://registry.npmjs.org/uri-js 5ms (cache hit)
+405 silly packumentCache full:https://registry.npmjs.org/uri-js set size:42559 disposed:false
+406 http fetch GET 200 https://registry.npmjs.org/json-schema-traverse 7ms (cache hit)
+407 silly packumentCache full:https://registry.npmjs.org/json-schema-traverse set size:23537 disposed:false
+408 silly placeDep node_modules/windows-build-tools fast-deep-equal@3.1.3 OK for: ajv@6.12.6 want: ^3.1.1
+409 silly placeDep node_modules/windows-build-tools fast-json-stable-stringify@2.1.0 OK for: ajv@6.12.6 want: ^2.0.0
+410 silly placeDep node_modules/windows-build-tools json-schema-traverse@0.4.1 OK for: ajv@6.12.6 want: ^0.4.1
+411 silly placeDep node_modules/windows-build-tools uri-js@4.4.1 OK for: ajv@6.12.6 want: ^4.2.2
+412 silly fetch manifest punycode@^2.1.0
+413 silly packumentCache full:https://registry.npmjs.org/punycode cache-hit
+414 silly placeDep node_modules/windows-build-tools assert-plus@1.0.0 OK for: http-signature@1.2.0 want: ^1.0.0
+415 silly placeDep node_modules/windows-build-tools jsprim@1.4.2 OK for: http-signature@1.2.0 want: ^1.2.2
+416 silly placeDep node_modules/windows-build-tools sshpk@1.18.0 OK for: http-signature@1.2.0 want: ^1.7.0
+417 silly fetch manifest extsprintf@1.3.0
+418 silly packumentCache full:https://registry.npmjs.org/extsprintf cache-miss
+419 silly fetch manifest json-schema@0.4.0
+420 silly packumentCache full:https://registry.npmjs.org/json-schema cache-miss
+421 silly fetch manifest verror@1.10.0
+422 silly packumentCache full:https://registry.npmjs.org/verror cache-miss
+423 silly fetch manifest asn1@~0.2.3
+424 silly packumentCache full:https://registry.npmjs.org/asn1 cache-miss
+425 silly fetch manifest dashdash@^1.12.0
+426 silly packumentCache full:https://registry.npmjs.org/dashdash cache-miss
+427 silly fetch manifest getpass@^0.1.1
+428 silly packumentCache full:https://registry.npmjs.org/getpass cache-miss
+429 silly fetch manifest safer-buffer@^2.0.2
+430 silly packumentCache full:https://registry.npmjs.org/safer-buffer cache-miss
+431 silly fetch manifest jsbn@~0.1.0
+432 silly packumentCache full:https://registry.npmjs.org/jsbn cache-miss
+433 silly fetch manifest tweetnacl@~0.14.0
+434 silly packumentCache full:https://registry.npmjs.org/tweetnacl cache-miss
+435 silly fetch manifest ecc-jsbn@~0.1.1
+436 silly packumentCache full:https://registry.npmjs.org/ecc-jsbn cache-miss
+437 silly fetch manifest bcrypt-pbkdf@^1.0.0
+438 silly packumentCache full:https://registry.npmjs.org/bcrypt-pbkdf cache-miss
+439 http fetch GET 200 https://registry.npmjs.org/verror 21ms (cache hit)
+440 silly packumentCache full:https://registry.npmjs.org/verror set size:50044 disposed:false
+441 http fetch GET 200 https://registry.npmjs.org/extsprintf 23ms (cache hit)
+442 silly packumentCache full:https://registry.npmjs.org/extsprintf set size:16093 disposed:false
+443 http fetch GET 200 https://registry.npmjs.org/getpass 22ms (cache hit)
+444 silly packumentCache full:https://registry.npmjs.org/getpass set size:13358 disposed:false
+445 http fetch GET 200 https://registry.npmjs.org/dashdash 23ms (cache hit)
+446 silly packumentCache full:https://registry.npmjs.org/dashdash set size:63751 disposed:false
+447 http fetch GET 200 https://registry.npmjs.org/json-schema 25ms (cache hit)
+448 silly packumentCache full:https://registry.npmjs.org/json-schema set size:15084 disposed:false
+449 http fetch GET 200 https://registry.npmjs.org/jsbn 23ms (cache hit)
+450 silly packumentCache full:https://registry.npmjs.org/jsbn set size:8169 disposed:false
+451 http fetch GET 200 https://registry.npmjs.org/asn1 25ms (cache hit)
+452 silly packumentCache full:https://registry.npmjs.org/asn1 set size:29893 disposed:false
+453 http fetch GET 200 https://registry.npmjs.org/tweetnacl 24ms (cache hit)
+454 silly packumentCache full:https://registry.npmjs.org/tweetnacl set size:79790 disposed:false
+455 http fetch GET 200 https://registry.npmjs.org/bcrypt-pbkdf 25ms (cache hit)
+456 silly packumentCache full:https://registry.npmjs.org/bcrypt-pbkdf set size:6742 disposed:false
+457 http fetch GET 200 https://registry.npmjs.org/ecc-jsbn 26ms (cache hit)
+458 silly packumentCache full:https://registry.npmjs.org/ecc-jsbn set size:8870 disposed:false
+459 http fetch GET 200 https://registry.npmjs.org/safer-buffer 95ms (cache revalidated)
+460 silly packumentCache full:https://registry.npmjs.org/safer-buffer set size:18521 disposed:false
+461 silly placeDep node_modules/windows-build-tools extsprintf@1.3.0 OK for: jsprim@1.4.2 want: 1.3.0
+462 silly placeDep node_modules/windows-build-tools json-schema@0.4.0 OK for: jsprim@1.4.2 want: 0.4.0
+463 silly placeDep node_modules/windows-build-tools verror@1.10.0 OK for: jsprim@1.4.2 want: 1.10.0
+464 silly fetch manifest core-util-is@1.0.2
+465 silly packumentCache full:https://registry.npmjs.org/core-util-is cache-miss
+466 http fetch GET 200 https://registry.npmjs.org/core-util-is 3ms (cache hit)
+467 silly packumentCache full:https://registry.npmjs.org/core-util-is set size:7163 disposed:false
+468 silly placeDep node_modules/windows-build-tools mime-db@1.52.0 OK for: mime-types@2.1.35 want: 1.52.0
+469 silly placeDep node_modules/windows-build-tools/node_modules/single-line-log string-width@1.0.2 OK for: single-line-log@1.1.2 want: ^1.0.1
+470 silly fetch manifest code-point-at@^1.0.0
+471 silly packumentCache full:https://registry.npmjs.org/code-point-at cache-miss
+472 silly fetch manifest is-fullwidth-code-point@^1.0.0
+473 silly packumentCache full:https://registry.npmjs.org/is-fullwidth-code-point cache-hit
+474 silly fetch manifest strip-ansi@^3.0.0
+475 silly packumentCache full:https://registry.npmjs.org/strip-ansi cache-hit
+476 http fetch GET 200 https://registry.npmjs.org/code-point-at 4ms (cache hit)
+477 silly packumentCache full:https://registry.npmjs.org/code-point-at set size:8688 disposed:false
+478 silly placeDep node_modules/windows-build-tools asn1@0.2.6 OK for: sshpk@1.18.0 want: ~0.2.3
+479 silly placeDep node_modules/windows-build-tools bcrypt-pbkdf@1.0.2 OK for: sshpk@1.18.0 want: ^1.0.0
+480 silly placeDep node_modules/windows-build-tools dashdash@1.14.1 OK for: sshpk@1.18.0 want: ^1.12.0
+481 silly placeDep node_modules/windows-build-tools ecc-jsbn@0.1.2 OK for: sshpk@1.18.0 want: ~0.1.1
+482 silly placeDep node_modules/windows-build-tools getpass@0.1.7 OK for: sshpk@1.18.0 want: ^0.1.1
+483 silly placeDep node_modules/windows-build-tools jsbn@0.1.1 OK for: sshpk@1.18.0 want: ~0.1.0
+484 silly placeDep node_modules/windows-build-tools safer-buffer@2.1.2 OK for: sshpk@1.18.0 want: ^2.0.2
+485 silly placeDep node_modules/windows-build-tools tweetnacl@0.14.5 OK for: sshpk@1.18.0 want: ~0.14.0
+486 silly fetch manifest safer-buffer@~2.1.0
+487 silly packumentCache full:https://registry.npmjs.org/safer-buffer cache-hit
+488 silly fetch manifest tweetnacl@^0.14.3
+489 silly packumentCache full:https://registry.npmjs.org/tweetnacl cache-hit
+490 silly fetch manifest safer-buffer@^2.1.0
+491 silly packumentCache full:https://registry.npmjs.org/safer-buffer cache-hit
+492 silly placeDep node_modules/windows-build-tools emoji-regex@8.0.0 OK for: string-width@4.2.3 want: ^8.0.0
+493 silly placeDep node_modules/windows-build-tools is-fullwidth-code-point@3.0.0 OK for: string-width@4.2.3 want: ^3.0.0
+494 silly placeDep node_modules/windows-build-tools strip-ansi@6.0.1 OK for: string-width@4.2.3 want: ^6.0.1
+495 silly fetch manifest ansi-regex@^5.0.1
+496 silly packumentCache full:https://registry.npmjs.org/ansi-regex cache-miss
+497 http fetch GET 200 https://registry.npmjs.org/ansi-regex 3ms (cache hit)
+498 silly packumentCache full:https://registry.npmjs.org/ansi-regex set size:45233 disposed:false
+499 silly placeDep node_modules/windows-build-tools ansi-regex@5.0.1 OK for: strip-ansi@6.0.1 want: ^5.0.1
+500 silly placeDep node_modules/windows-build-tools has-flag@3.0.0 OK for: supports-color@5.5.0 want: ^3.0.0
+501 silly placeDep node_modules/windows-build-tools readable-stream@1.1.14 OK for: through2@0.2.3 want: ~1.1.9
+502 silly placeDep node_modules/windows-build-tools xtend@2.1.2 OK for: through2@0.2.3 want: ~2.1.1
+503 silly fetch manifest core-util-is@~1.0.0
+504 silly packumentCache full:https://registry.npmjs.org/core-util-is cache-hit
+505 silly fetch manifest isarray@0.0.1
+506 silly packumentCache full:https://registry.npmjs.org/isarray cache-miss
+507 silly fetch manifest string_decoder@~0.10.x
+508 silly packumentCache full:https://registry.npmjs.org/string_decoder cache-miss
+509 silly fetch manifest object-keys@~0.4.0
+510 silly packumentCache full:https://registry.npmjs.org/object-keys cache-miss
+511 http fetch GET 200 https://registry.npmjs.org/string_decoder 4ms (cache hit)
+512 silly packumentCache full:https://registry.npmjs.org/string_decoder set size:28441 disposed:false
+513 http fetch GET 200 https://registry.npmjs.org/isarray 5ms (cache hit)
+514 silly packumentCache full:https://registry.npmjs.org/isarray set size:17392 disposed:false
+515 http fetch GET 200 https://registry.npmjs.org/object-keys 5ms (cache hit)
+516 silly packumentCache full:https://registry.npmjs.org/object-keys set size:67744 disposed:false
+517 silly placeDep node_modules/windows-build-tools core-util-is@1.0.3 OK for: readable-stream@1.1.14 want: ~1.0.0
+518 silly placeDep node_modules/windows-build-tools isarray@0.0.1 OK for: readable-stream@1.1.14 want: 0.0.1
+519 silly placeDep node_modules/windows-build-tools string_decoder@0.10.31 OK for: readable-stream@1.1.14 want: ~0.10.x
+520 silly placeDep node_modules/windows-build-tools psl@1.9.0 OK for: tough-cookie@2.5.0 want: ^1.1.28
+521 silly placeDep node_modules/windows-build-tools punycode@2.3.1 OK for: tough-cookie@2.5.0 want: ^2.1.1
+522 silly placeDep node_modules/windows-build-tools/node_modules/verror core-util-is@1.0.2 OK for: verror@1.10.0 want: 1.0.2
+523 silly placeDep node_modules/windows-build-tools object-keys@0.4.0 OK for: xtend@2.1.2 want: ~0.4.0
+524 silly placeDep node_modules/windows-build-tools/node_modules/nugget ms@2.0.0 OK for: debug@2.6.9 want: 2.0.0
+525 silly placeDep node_modules/windows-build-tools code-point-at@1.1.0 OK for: string-width@1.0.2 want: ^1.0.0
+526 silly placeDep node_modules/windows-build-tools/node_modules/single-line-log is-fullwidth-code-point@1.0.0 OK for: string-width@1.0.2 want: ^1.0.0
+527 silly placeDep node_modules/windows-build-tools/node_modules/single-line-log strip-ansi@3.0.1 OK for: string-width@1.0.2 want: ^3.0.0
+528 silly fetch manifest number-is-nan@^1.0.0
+529 silly packumentCache full:https://registry.npmjs.org/number-is-nan cache-miss
+530 silly fetch manifest ansi-regex@^2.0.0
+531 silly packumentCache full:https://registry.npmjs.org/ansi-regex cache-hit
+532 http fetch GET 200 https://registry.npmjs.org/number-is-nan 3ms (cache hit)
+533 silly packumentCache full:https://registry.npmjs.org/number-is-nan set size:9822 disposed:false
+534 silly placeDep node_modules/windows-build-tools number-is-nan@1.0.1 OK for: is-fullwidth-code-point@1.0.0 want: ^1.0.0
+535 silly placeDep node_modules/windows-build-tools/node_modules/single-line-log ansi-regex@2.1.1 OK for: strip-ansi@3.0.1 want: ^2.0.0
+536 silly reify moves {}
+537 warn deprecated inflight@1.0.6: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
+538 warn deprecated har-validator@5.1.5: this library is no longer supported
+539 warn deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported
+540 warn deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+541 warn deprecated request@2.88.2: request has been deprecated, see https://github.com/request/request/issues/3142
+542 warn deprecated windows-build-tools@5.2.2: Node.js now includes build tools for Windows. You probably no longer need this tool. See https://github.com/felixrieseberg/windows-build-tools for details.
+543 info run windows-build-tools@5.2.2 postinstall node_modules/windows-build-tools node ./dist/index.js
+544 info run windows-build-tools@5.2.2 postinstall { code: 1, signal: null }
+545 verbose stack Error: command failed
+545 verbose stack     at promiseSpawn (C:\Users\Ashton Drye\AppData\Roaming\npm\node_modules\npm\node_modules\@npmcli\promise-spawn\lib\index.js:22:22)
+545 verbose stack     at spawnWithShell (C:\Users\Ashton Drye\AppData\Roaming\npm\node_modules\npm\node_modules\@npmcli\promise-spawn\lib\index.js:124:10)
+545 verbose stack     at promiseSpawn (C:\Users\Ashton Drye\AppData\Roaming\npm\node_modules\npm\node_modules\@npmcli\promise-spawn\lib\index.js:12:12)
+545 verbose stack     at runScriptPkg (C:\Users\Ashton Drye\AppData\Roaming\npm\node_modules\npm\node_modules\@npmcli\run-script\lib\run-script-pkg.js:77:13)
+545 verbose stack     at runScript (C:\Users\Ashton Drye\AppData\Roaming\npm\node_modules\npm\node_modules\@npmcli\run-script\lib\run-script.js:9:12)
+545 verbose stack     at C:\Users\Ashton Drye\AppData\Roaming\npm\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\rebuild.js:329:17
+545 verbose stack     at run (C:\Users\Ashton Drye\AppData\Roaming\npm\node_modules\npm\node_modules\promise-call-limit\dist\commonjs\index.js:67:22)
+545 verbose stack     at C:\Users\Ashton Drye\AppData\Roaming\npm\node_modules\npm\node_modules\promise-call-limit\dist\commonjs\index.js:84:9
+545 verbose stack     at new Promise (<anonymous>)
+545 verbose stack     at callLimit (C:\Users\Ashton Drye\AppData\Roaming\npm\node_modules\npm\node_modules\promise-call-limit\dist\commonjs\index.js:35:69)
+545 verbose stack     at #runScripts (C:\Users\Ashton Drye\AppData\Roaming\npm\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\rebuild.js:289:11)
+545 verbose stack     at #build (C:\Users\Ashton Drye\AppData\Roaming\npm\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\rebuild.js:165:29)
+545 verbose stack     at async Arborist.rebuild (C:\Users\Ashton Drye\AppData\Roaming\npm\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\rebuild.js:62:5)
+545 verbose stack     at async [reifyPackages] (C:\Users\Ashton Drye\AppData\Roaming\npm\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:325:11)
+545 verbose stack     at async Arborist.reify (C:\Users\Ashton Drye\AppData\Roaming\npm\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:142:5)
+545 verbose stack     at async Install.exec (C:\Users\Ashton Drye\AppData\Roaming\npm\node_modules\npm\lib\commands\install.js:150:5)
+546 verbose pkgid windows-build-tools@5.2.2
+547 error code 1
+548 error path C:\Users\Ashton Drye\AppData\Roaming\npm\node_modules\windows-build-tools
+549 error command failed
+550 error command C:\Windows\system32\cmd.exe /d /s /c node ./dist/index.js
+551 error Downloading python-2.7.15.amd64.msi
+551 error [>                                            ] 0.0% (0 B/s)
+551 error ^[[1000D^[[0K^[[1A^[[1000D^[[0K^[[1A^[[1000D^[[0KDownloading python-2.7.15.amd64.msi
+551 error [============================================>] 100.0% (0 B/s)
+551 error ^[[1000D^[[0K^[[1A^[[1000D^[[0K^[[1A^[[1000D^[[0KDownloading python-2.7.15.amd64.msi
+551 error [============================================>] 100.0% (0 B/s)
+551 error Downloaded python-2.7.15.amd64.msi. Saved to C:\Users\Ashton Drye\.windows-build-tools\python-2.7.15.amd64.msi.
+551 error
+551 error
+551 error ^[[1000D^[[0K^[[1A^[[1000D^[[0K^[[1A^[[1000D^[[0KDownloading vs_BuildTools.exe
+551 error [>                                            ] 0.0% (0 B/s)
+551 error ^[[1000D^[[0K^[[1A^[[1000D^[[0K^[[1A^[[1000D^[[0KDownloading vs_BuildTools.exe
+551 error [============================================>] 100.0% (0 B/s)
+551 error ^[[1000D^[[0K^[[1A^[[1000D^[[0K^[[1A^[[1000D^[[0KDownloading vs_BuildTools.exe
+551 error [============================================>] 100.0% (0 B/s)
+551 error Downloaded vs_BuildTools.exe. Saved to C:\Users\Ashton Drye\.windows-build-tools\vs_BuildTools.exe.
+551 error
+551 error Starting installation...
+551 error Downloading installers failed. Error: TypeError: 'process.env' only accepts a configurable, writable, and enumerable data descriptor
+551 error     at Function.defineProperty (<anonymous>)
+551 error     at Object.removePath (C:\Users\Ashton Drye\AppData\Roaming\npm\node_modules\windows-build-tools\dist\utils\remove-path.js:11:12)
+551 error     at Object.install (C:\Users\Ashton Drye\AppData\Roaming\npm\node_modules\windows-build-tools\dist\install\index.js:29:19)
+551 error     at C:\Users\Ashton Drye\AppData\Roaming\npm\node_modules\windows-build-tools\dist\start.js:17:19
+551 error     at Object.download (C:\Users\Ashton Drye\AppData\Roaming\npm\node_modules\windows-build-tools\dist\download.js:35:5)
+551 error     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+551 error     at async Object.aquireInstallers (C:\Users\Ashton Drye\AppData\Roaming\npm\node_modules\windows-build-tools\dist\aquire-installers.js:32:13) {
+551 error   code: 'ERR_INVALID_OBJECT_DEFINE_PROPERTY'
+551 error }
+551 error windows-build-tools will now exit.
+552 error (node:1904) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+552 error (Use `node --trace-deprecation ...` to show where the warning was created)
+553 silly unfinished npm timer reify 1719515909944
+554 silly unfinished npm timer reify:build 1719515912047
+555 silly unfinished npm timer build 1719515912048
+556 silly unfinished npm timer build:deps 1719515912048
+557 silly unfinished npm timer build:run:postinstall 1719515912058
+558 silly unfinished npm timer build:run:postinstall:node_modules/windows-build-tools 1719515912059
+559 verbose cwd C:\Users\Ashton Drye\Electron Apps\AstofTerm
+560 verbose os Windows_NT 10.0.19045
+561 verbose node v22.3.0
+562 verbose npm  v10.8.1
+563 verbose exit 1
+564 verbose code 1
+565 error A complete log of this run can be found in: C:\Users\Ashton Drye\AppData\Local\npm-cache\_logs\2024-06-27T19_18_29_518Z-debug-0.log
