@@ -1,0 +1,748 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Users\Ashton Drye\AppData\Roaming\npm\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.8.1
+2 info using node@v22.3.0
+3 silly config load:file:C:\Users\Ashton Drye\AppData\Roaming\npm\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\Ashton Drye\Electron Apps\AstofTerm\.npmrc
+5 silly config load:file:C:\Users\Ashton Drye\.npmrc
+6 silly config load:file:C:\Users\Ashton Drye\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm install node-pty
+8 verbose argv "install" "node-pty" "--force"
+9 verbose logfile logs-max:10 dir:C:\Users\Ashton Drye\AppData\Local\npm-cache\_logs\2024-06-27T19_15_53_496Z-
+10 verbose logfile C:\Users\Ashton Drye\AppData\Local\npm-cache\_logs\2024-06-27T19_15_53_496Z-debug-0.log
+11 warn using --force Recommended protections disabled.
+12 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+13 silly logfile start cleaning logs, removing 1 files
+14 silly idealTree buildDeps
+15 silly fetch manifest node-pty@*
+16 silly packumentCache full:https://registry.npmjs.org/node-pty cache-miss
+17 silly logfile done cleaning log files
+18 verbose shrinkwrap failed to load node_modules/.package-lock.json out of date, updated: node_modules
+19 http fetch GET 200 https://registry.npmjs.org/node-pty 38ms (cache hit)
+20 silly packumentCache full:https://registry.npmjs.org/node-pty set size:1107473 disposed:false
+21 silly placeDep ROOT node-pty@1.0.0 OK for: astofterm@1.0.0 want: *
+22 silly fetch manifest xterm@^5.0.0
+23 silly packumentCache full:https://registry.npmjs.org/xterm cache-miss
+24 http fetch GET 200 https://registry.npmjs.org/xterm 120ms (cache hit)
+25 silly packumentCache full:https://registry.npmjs.org/xterm set size:22356712 disposed:false
+26 warn ERESOLVE overriding peer dependency {
+26 warn ERESOLVE   code: 'ERESOLVE',
+26 warn ERESOLVE   edge: {
+26 warn ERESOLVE     type: 'peer',
+26 warn ERESOLVE     name: 'xterm',
+26 warn ERESOLVE     spec: '^5.0.0',
+26 warn ERESOLVE     error: 'INVALID',
+26 warn ERESOLVE     from: {
+26 warn ERESOLVE       name: 'xterm-addon-fit',
+26 warn ERESOLVE       version: '0.8.0',
+26 warn ERESOLVE       location: 'node_modules/xterm-addon-fit',
+26 warn ERESOLVE       isWorkspace: false,
+26 warn ERESOLVE       dependents: [Array]
+26 warn ERESOLVE     }
+26 warn ERESOLVE   },
+26 warn ERESOLVE   dep: {
+26 warn ERESOLVE     name: 'xterm',
+26 warn ERESOLVE     version: '5.3.0',
+26 warn ERESOLVE     whileInstalling: {
+26 warn ERESOLVE       name: 'xterm-addon-fit',
+26 warn ERESOLVE       version: '0.8.0',
+26 warn ERESOLVE       path: 'C:\\Users\\Ashton Drye\\Electron Apps\\AstofTerm\\node_modules\\xterm-addon-fit'
+26 warn ERESOLVE     },
+26 warn ERESOLVE     location: 'node_modules/xterm',
+26 warn ERESOLVE     isWorkspace: false,
+26 warn ERESOLVE     dependents: [ [Object] ]
+26 warn ERESOLVE   },
+26 warn ERESOLVE   force: true,
+26 warn ERESOLVE   isMine: true,
+26 warn ERESOLVE   strictPeerDeps: false,
+26 warn ERESOLVE   current: {
+26 warn ERESOLVE     name: 'xterm',
+26 warn ERESOLVE     version: undefined,
+26 warn ERESOLVE     errors: [
+26 warn ERESOLVE       Error: invalid package: lacks name and/or version
+26 warn ERESOLVE           at [_explain] (C:\Users\Ashton Drye\AppData\Roaming\npm\node_modules\npm\node_modules\@npmcli\arborist\lib\node.js:404:9)
+26 warn ERESOLVE           at Link.explain (C:\Users\Ashton Drye\AppData\Roaming\npm\node_modules\npm\node_modules\@npmcli\arborist\lib\node.js:388:47)
+26 warn ERESOLVE           at PlaceDep.explainPeerConflict (C:\Users\Ashton Drye\AppData\Roaming\npm\node_modules\npm\node_modules\@npmcli\arborist\lib\place-dep.js:526:41)
+26 warn ERESOLVE           at PlaceDep.warnPeerConflict (C:\Users\Ashton Drye\AppData\Roaming\npm\node_modules\npm\node_modules\@npmcli\arborist\lib\place-dep.js:495:23)
+26 warn ERESOLVE           at new PlaceDep (C:\Users\Ashton Drye\AppData\Roaming\npm\node_modules\npm\node_modules\@npmcli\arborist\lib\place-dep.js:165:14)
+26 warn ERESOLVE           at #buildDepStep (C:\Users\Ashton Drye\AppData\Roaming\npm\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\build-ideal-tree.js:917:18)
+26 warn ERESOLVE           at async Arborist.buildIdealTree (C:\Users\Ashton Drye\AppData\Roaming\npm\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\build-ideal-tree.js:181:7)
+26 warn ERESOLVE           at async Promise.all (index 1)
+26 warn ERESOLVE           at async Arborist.reify (C:\Users\Ashton Drye\AppData\Roaming\npm\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:131:5)
+26 warn ERESOLVE           at async Install.exec (C:\Users\Ashton Drye\AppData\Roaming\npm\node_modules\npm\lib\commands\install.js:150:5)
+26 warn ERESOLVE           at async Npm.exec (C:\Users\Ashton Drye\AppData\Roaming\npm\node_modules\npm\lib\npm.js:207:9)
+26 warn ERESOLVE           at async module.exports (C:\Users\Ashton Drye\AppData\Roaming\npm\node_modules\npm\lib\cli\entry.js:74:5)
+26 warn ERESOLVE     ],
+26 warn ERESOLVE     package: { name: 'pty' },
+26 warn ERESOLVE     location: 'node_modules/xterm',
+26 warn ERESOLVE     isWorkspace: false,
+26 warn ERESOLVE     dependents: [ [Object] ]
+26 warn ERESOLVE   },
+26 warn ERESOLVE   peerConflict: {
+26 warn ERESOLVE     current: {
+26 warn ERESOLVE       name: 'xterm',
+26 warn ERESOLVE       version: undefined,
+26 warn ERESOLVE       errors: [Array],
+26 warn ERESOLVE       package: [Object],
+26 warn ERESOLVE       location: 'node_modules/xterm',
+26 warn ERESOLVE       isWorkspace: false,
+26 warn ERESOLVE       dependents: [Array]
+26 warn ERESOLVE     },
+26 warn ERESOLVE     peer: {
+26 warn ERESOLVE       name: 'xterm',
+26 warn ERESOLVE       version: '5.3.0',
+26 warn ERESOLVE       whileInstalling: [Object],
+26 warn ERESOLVE       location: 'node_modules/xterm',
+26 warn ERESOLVE       isWorkspace: false,
+26 warn ERESOLVE       dependents: [Array]
+26 warn ERESOLVE     }
+26 warn ERESOLVE   }
+26 warn ERESOLVE }
+27 silly reify mark retired [
+27 silly reify   'C:\\Users\\Ashton Drye\\Electron Apps\\AstofTerm\\node_modules\\electron-installer-redhat'
+27 silly reify ]
+28 silly reify mark retired [
+28 silly reify   'C:\\Users\\Ashton Drye\\Electron Apps\\AstofTerm\\node_modules\\node\\node_modules\\node-bin-setup'
+28 silly reify ]
+29 silly reify mark retired [
+29 silly reify   'C:\\Users\\Ashton Drye\\Electron Apps\\AstofTerm\\node_modules\\node\\node_modules\\node-win-x64',
+29 silly reify   'C:\\Users\\Ashton Drye\\Electron Apps\\AstofTerm\\node_modules\\node\\node_modules\\.bin\\node',
+29 silly reify   'C:\\Users\\Ashton Drye\\Electron Apps\\AstofTerm\\node_modules\\node\\node_modules\\.bin\\node.cmd',
+29 silly reify   'C:\\Users\\Ashton Drye\\Electron Apps\\AstofTerm\\node_modules\\node\\node_modules\\.bin\\node.ps1'
+29 silly reify ]
+30 silly reify mark retired [
+30 silly reify   'C:\\Users\\Ashton Drye\\Electron Apps\\AstofTerm\\node_modules\\xterm'
+30 silly reify ]
+31 silly reify moves {
+31 silly reify   'C:\\Users\\Ashton Drye\\Electron Apps\\AstofTerm\\node_modules\\electron-installer-redhat': 'C:\\Users\\Ashton Drye\\Electron Apps\\AstofTerm\\node_modules\\.electron-installer-redhat-nSuPl5nt',
+31 silly reify   'C:\\Users\\Ashton Drye\\Electron Apps\\AstofTerm\\node_modules\\node\\node_modules\\node-bin-setup': 'C:\\Users\\Ashton Drye\\Electron Apps\\AstofTerm\\node_modules\\node\\node_modules\\.node-bin-setup-w3nsKdu9',
+31 silly reify   'C:\\Users\\Ashton Drye\\Electron Apps\\AstofTerm\\node_modules\\node\\node_modules\\node-win-x64': 'C:\\Users\\Ashton Drye\\Electron Apps\\AstofTerm\\node_modules\\node\\node_modules\\.node-win-x64-IsCEmXZT',
+31 silly reify   'C:\\Users\\Ashton Drye\\Electron Apps\\AstofTerm\\node_modules\\node\\node_modules\\.bin\\node': 'C:\\Users\\Ashton Drye\\Electron Apps\\AstofTerm\\node_modules\\node\\node_modules\\.bin\\.node-dZLWGpp5',
+31 silly reify   'C:\\Users\\Ashton Drye\\Electron Apps\\AstofTerm\\node_modules\\node\\node_modules\\.bin\\node.cmd': 'C:\\Users\\Ashton Drye\\Electron Apps\\AstofTerm\\node_modules\\node\\node_modules\\.bin\\.node.cmd-W12FpmTZ',
+31 silly reify   'C:\\Users\\Ashton Drye\\Electron Apps\\AstofTerm\\node_modules\\node\\node_modules\\.bin\\node.ps1': 'C:\\Users\\Ashton Drye\\Electron Apps\\AstofTerm\\node_modules\\node\\node_modules\\.bin\\.node.ps1-YBi6BO05',
+31 silly reify   'C:\\Users\\Ashton Drye\\Electron Apps\\AstofTerm\\node_modules\\xterm': 'C:\\Users\\Ashton Drye\\Electron Apps\\AstofTerm\\node_modules\\.xterm-qxoTTcaP'
+31 silly reify }
+32 silly audit bulk request {
+32 silly audit   '@electron-forge/cli': [ '7.4.0' ],
+32 silly audit   commander: [ '4.1.1', '5.1.0', '9.5.0' ],
+32 silly audit   'fs-extra': [ '10.1.0', '8.1.0', '11.2.0', '7.0.1', '9.1.0' ],
+32 silly audit   '@electron-forge/core': [ '7.4.0' ],
+32 silly audit   '@electron-forge/core-utils': [ '7.4.0' ],
+32 silly audit   'find-up': [ '5.0.0', '2.1.0', '4.1.0' ],
+32 silly audit   'locate-path': [ '6.0.0', '2.0.0', '5.0.0' ],
+32 silly audit   'p-locate': [ '5.0.0', '2.0.0', '4.1.0' ],
+32 silly audit   'path-exists': [ '4.0.0', '3.0.0' ],
+32 silly audit   '@electron-forge/maker-base': [ '7.4.0' ],
+32 silly audit   '@electron-forge/maker-deb': [ '7.4.0' ],
+32 silly audit   '@electron-forge/maker-rpm': [ '7.4.0' ],
+32 silly audit   '@electron-forge/maker-squirrel': [ '7.4.0' ],
+32 silly audit   '@electron-forge/maker-zip': [ '7.4.0' ],
+32 silly audit   '@electron-forge/plugin-auto-unpack-natives': [ '7.4.0' ],
+32 silly audit   '@electron-forge/plugin-base': [ '7.4.0' ],
+32 silly audit   '@electron-forge/plugin-fuses': [ '7.4.0' ],
+32 silly audit   '@electron-forge/publisher-base': [ '7.4.0' ],
+32 silly audit   '@electron-forge/shared-types': [ '7.4.0' ],
+32 silly audit   '@electron-forge/template-base': [ '7.4.0' ],
+32 silly audit   '@electron-forge/template-vite': [ '7.4.0' ],
+32 silly audit   '@electron-forge/template-vite-typescript': [ '7.4.0' ],
+32 silly audit   '@electron-forge/template-webpack': [ '7.4.0' ],
+32 silly audit   '@electron-forge/template-webpack-typescript': [ '7.4.0' ],
+32 silly audit   '@electron-forge/tracer': [ '7.4.0' ],
+32 silly audit   '@electron/asar': [ '3.2.10' ],
+32 silly audit   '@electron/fuses': [ '1.8.0' ],
+32 silly audit   '@electron/get': [ '3.0.0', '2.0.3' ],
+32 silly audit   jsonfile: [ '4.0.0', '6.1.0' ],
+32 silly audit   semver: [ '6.3.1', '5.7.2', '7.6.2' ],
+32 silly audit   universalify: [ '0.1.2', '2.0.1' ],
+32 silly audit   '@electron/notarize': [ '2.3.2' ],
+32 silly audit   '@electron/osx-sign': [ '1.3.0' ],
+32 silly audit   '@electron/packager': [ '18.3.3' ],
+32 silly audit   '@electron/rebuild': [ '3.6.0' ],
+32 silly audit   '@electron/universal': [ '2.0.1' ],
+32 silly audit   'brace-expansion': [ '2.0.1', '1.1.11' ],
+32 silly audit   minimatch: [ '9.0.5', '5.1.6', '3.1.2' ],
+32 silly audit   '@electron/windows-sign': [ '1.1.2' ],
+32 silly audit   '@gar/promisify': [ '1.1.3' ],
+32 silly audit   '@malept/cross-spawn-promise': [ '2.0.0', '1.1.1' ],
+32 silly audit   '@nodelib/fs.scandir': [ '2.1.5' ],
+32 silly audit   '@nodelib/fs.stat': [ '2.0.5' ],
+32 silly audit   '@nodelib/fs.walk': [ '1.2.8' ],
+32 silly audit   '@npmcli/fs': [ '2.1.2' ],
+32 silly audit   '@npmcli/move-file': [ '2.0.1' ],
+32 silly audit   '@sindresorhus/is': [ '4.6.0' ],
+32 silly audit   '@szmarczak/http-timer': [ '4.0.6' ],
+32 silly audit   '@tootallnate/once': [ '2.0.0' ],
+32 silly audit   '@types/cacheable-request': [ '6.0.3' ],
+32 silly audit   '@types/fs-extra': [ '9.0.13' ],
+32 silly audit   '@types/glob': [ '7.2.0' ],
+32 silly audit   '@types/http-cache-semantics': [ '4.0.4' ],
+32 silly audit   '@types/keyv': [ '3.1.4' ],
+32 silly audit   '@types/minimatch': [ '5.1.2' ],
+32 silly audit   '@types/node': [ '20.14.9' ],
+32 silly audit   '@types/responselike': [ '1.0.3' ],
+32 silly audit   '@types/yauzl': [ '2.10.3' ],
+32 silly audit   '@xmldom/xmldom': [ '0.8.10' ],
+32 silly audit   '@xterm/addon-fit': [ '0.10.0' ],
+32 silly audit   '@xterm/xterm': [ '5.5.0' ],
+32 silly audit   abbrev: [ '1.1.1' ],
+32 silly audit   'agent-base': [ '6.0.2' ],
+32 silly audit   agentkeepalive: [ '4.5.0' ],
+32 silly audit   'aggregate-error': [ '3.1.0' ],
+32 silly audit   'ansi-escapes': [ '5.0.0' ],
+32 silly audit   'ansi-regex': [ '6.0.1', '5.0.1' ],
+32 silly audit   'ansi-styles': [ '4.3.0', '6.2.1' ],
+32 silly audit   aproba: [ '2.0.0' ],
+32 silly audit   'are-we-there-yet': [ '3.0.1' ],
+32 silly audit   asar: [ '3.2.0' ],
+32 silly audit   'at-least-node': [ '1.0.0' ],
+32 silly audit   'author-regex': [ '1.0.0' ],
+32 silly audit   'balanced-match': [ '1.0.2' ],
+32 silly audit   'base64-js': [ '1.5.1' ],
+32 silly audit   bl: [ '4.1.0' ],
+32 silly audit   bluebird: [ '3.7.2' ],
+32 silly audit   boolean: [ '3.2.0' ],
+32 silly audit   braces: [ '3.0.3' ],
+32 silly audit   buffer: [ '5.7.1' ],
+32 silly audit   'buffer-crc32': [ '0.2.13' ],
+32 silly audit   'buffer-from': [ '1.1.2' ],
+32 silly audit   cacache: [ '16.1.3' ],
+32 silly audit   glob: [ '8.1.0', '7.2.3' ],
+32 silly audit   'cacheable-lookup': [ '5.0.4' ],
+32 silly audit   'cacheable-request': [ '7.0.4' ],
+32 silly audit   chalk: [ '4.1.2' ],
+32 silly audit   chownr: [ '2.0.0' ],
+32 silly audit   'chrome-trace-event': [ '1.0.4' ],
+32 silly audit   'chromium-pickle-js': [ '0.2.0' ],
+32 silly audit   'clean-stack': [ '2.2.0' ],
+32 silly audit   'cli-cursor': [ '4.0.0', '3.1.0' ],
+32 silly audit   'cli-spinners': [ '2.9.2' ],
+32 silly audit   'cli-truncate': [ '3.1.0' ],
+32 silly audit   cliui: [ '8.0.1', '7.0.4' ],
+32 silly audit   'emoji-regex': [ '8.0.0', '9.2.2' ],
+32 silly audit   'is-fullwidth-code-point': [ '3.0.0', '4.0.0' ],
+32 silly audit   'string-width': [ '4.2.3', '5.1.2' ],
+32 silly audit   'strip-ansi': [ '6.0.1', '7.1.0' ],
+32 silly audit   'wrap-ansi': [ '7.0.0', '8.1.0' ],
+32 silly audit   clone: [ '1.0.4' ],
+32 silly audit   'clone-response': [ '1.0.3' ],
+32 silly audit   'color-convert': [ '2.0.1' ],
+32 silly audit   'color-name': [ '1.1.4' ],
+32 silly audit   'color-support': [ '1.1.3' ],
+32 silly audit   colorette: [ '2.0.20' ],
+32 silly audit   'compare-version': [ '0.1.2' ],
+32 silly audit   'concat-map': [ '0.0.1' ],
+32 silly audit   'console-control-strings': [ '1.1.0' ],
+32 silly audit   'cross-dirname': [ '0.1.0' ],
+32 silly audit   'cross-spawn': [ '7.0.3', '6.0.5' ],
+32 silly audit   'cross-zip': [ '4.0.1' ],
+32 silly audit   debug: [ '4.3.5', '2.6.9' ],
+32 silly audit   'decompress-response': [ '6.0.0' ],
+32 silly audit   'mimic-response': [ '3.1.0', '1.0.1' ],
+32 silly audit   defaults: [ '1.0.4' ],
+32 silly audit   'defer-to-connect': [ '2.0.1' ],
+32 silly audit   'define-data-property': [ '1.1.4' ],
+32 silly audit   'define-properties': [ '1.2.1' ],
+32 silly audit   delegates: [ '1.0.0' ],
+32 silly audit   'detect-libc': [ '2.0.3' ],
+32 silly audit   'detect-node': [ '2.1.0' ],
+32 silly audit   'dir-compare': [ '4.2.0' ],
+32 silly audit   eastasianwidth: [ '0.2.0' ],
+32 silly audit   electron: [ '31.1.0' ],
+32 silly audit   'electron-installer-common': [ '0.10.3' ],
+32 silly audit   'electron-installer-debian': [ '3.2.0' ],
+32 silly audit   yargs: [ '16.2.0', '17.7.2' ],
+32 silly audit   'yargs-parser': [ '20.2.9', '21.1.1' ],
+32 silly audit   'electron-installer-redhat': [ '3.4.0' ],
+32 silly audit   'electron-squirrel-startup': [ '1.0.1' ],
+32 silly audit   ms: [ '2.0.0', '2.1.2' ],
+32 silly audit   'electron-winstaller': [ '5.3.1' ],
+32 silly audit   encoding: [ '0.1.13' ],
+32 silly audit   'end-of-stream': [ '1.4.4' ],
+32 silly audit   'env-paths': [ '2.2.1' ],
+32 silly audit   'err-code': [ '2.0.3' ],
+32 silly audit   'error-ex': [ '1.3.2' ],
+32 silly audit   'es-define-property': [ '1.0.0' ],
+32 silly audit   'es-errors': [ '1.3.0' ],
+32 silly audit   'es6-error': [ '4.1.1' ],
+32 silly audit   escalade: [ '3.1.2' ],
+32 silly audit   'escape-string-regexp': [ '4.0.0', '1.0.5' ],
+32 silly audit   eventemitter3: [ '5.0.1' ],
+32 silly audit   execa: [ '1.0.0' ],
+32 silly audit   'get-stream': [ '4.1.0', '5.2.0' ],
+32 silly audit   'path-key': [ '2.0.1', '3.1.1' ],
+32 silly audit   'shebang-command': [ '1.2.0', '2.0.0' ],
+32 silly audit   'shebang-regex': [ '1.0.0', '3.0.0' ],
+32 silly audit   which: [ '1.3.1', '2.0.2' ],
+32 silly audit   'expand-tilde': [ '2.0.2' ],
+32 silly audit   'exponential-backoff': [ '3.1.1' ],
+32 silly audit   'extract-zip': [ '2.0.1' ],
+32 silly audit   'fast-glob': [ '3.3.2' ],
+32 silly audit   fastq: [ '1.17.1' ],
+32 silly audit   'fd-slicer': [ '1.1.0' ],
+32 silly audit   'filename-reserved-regex': [ '2.0.0' ],
+32 silly audit   filenamify: [ '4.3.0' ],
+32 silly audit   'fill-range': [ '7.1.1' ],
+32 silly audit   'flora-colossus': [ '2.0.0' ],
+32 silly audit   'fs-minipass': [ '2.1.0' ],
+32 silly audit   'fs.realpath': [ '1.0.0' ],
+32 silly audit   'function-bind': [ '1.1.2' ],
+32 silly audit   galactus: [ '1.0.0' ],
+32 silly audit   gar: [ '1.0.4' ],
+32 silly audit   gauge: [ '4.0.4' ],
+32 silly audit   'get-caller-file': [ '2.0.5' ],
+32 silly audit   'get-folder-size': [ '2.0.1' ],
+32 silly audit   'get-installed-path': [ '2.1.1' ],
+32 silly audit   'get-intrinsic': [ '1.2.4' ],
+32 silly audit   'get-package-info': [ '1.0.0' ],
+32 silly audit   'glob-parent': [ '5.1.2' ],
+32 silly audit   'global-agent': [ '3.0.0' ],
+32 silly audit   'global-modules': [ '1.0.0' ],
+32 silly audit   'global-prefix': [ '1.0.2' ],
+32 silly audit   globalthis: [ '1.0.4' ],
+32 silly audit   gopd: [ '1.0.1' ],
+32 silly audit   got: [ '11.8.6' ],
+32 silly audit   'graceful-fs': [ '4.2.11' ],
+32 silly audit   'has-flag': [ '4.0.0' ],
+32 silly audit   'has-property-descriptors': [ '1.0.2' ],
+32 silly audit   'has-proto': [ '1.0.3' ],
+32 silly audit   'has-symbols': [ '1.0.3' ],
+32 silly audit   'has-unicode': [ '2.0.1' ],
+32 silly audit   hasown: [ '2.0.2' ],
+32 silly audit   'homedir-polyfill': [ '1.0.3' ],
+32 silly audit   'hosted-git-info': [ '2.8.9' ],
+32 silly audit   'http-cache-semantics': [ '4.1.1' ],
+32 silly audit   'http-proxy-agent': [ '5.0.0' ],
+32 silly audit   'http2-wrapper': [ '1.0.3' ],
+32 silly audit   'https-proxy-agent': [ '5.0.1' ],
+32 silly audit   'humanize-ms': [ '1.2.1' ],
+32 silly audit   'iconv-lite': [ '0.6.3' ],
+32 silly audit   ieee754: [ '1.2.1' ],
+32 silly audit   imurmurhash: [ '0.1.4' ],
+32 silly audit   'indent-string': [ '4.0.0' ],
+32 silly audit   'infer-owner': [ '1.0.4' ],
+32 silly audit   inflight: [ '1.0.6' ],
+32 silly audit   inherits: [ '2.0.4' ],
+32 silly audit   ini: [ '1.3.8' ],
+32 silly audit   interpret: [ '3.1.1' ],
+32 silly audit   'ip-address': [ '9.0.5' ],
+32 silly audit   'is-arrayish': [ '0.2.1' ],
+32 silly audit   'is-core-module': [ '2.14.0' ],
+32 silly audit   'is-extglob': [ '2.1.1' ],
+32 silly audit   'is-glob': [ '4.0.3' ],
+32 silly audit   'is-interactive': [ '1.0.0' ],
+32 silly audit   'is-lambda': [ '1.0.1' ],
+32 silly audit   'is-number': [ '7.0.0' ],
+32 silly audit   'is-stream': [ '1.1.0' ],
+32 silly audit   'is-unicode-supported': [ '0.1.0' ],
+32 silly audit   'is-windows': [ '1.0.2' ],
+32 silly audit   isbinaryfile: [ '4.0.10' ],
+32 silly audit   isexe: [ '2.0.0' ],
+32 silly audit   jsbn: [ '1.1.0' ],
+32 silly audit   'json-buffer': [ '3.0.1' ],
+32 silly audit   'json-stringify-safe': [ '5.0.1' ],
+32 silly audit   junk: [ '3.1.0' ],
+32 silly audit   keyv: [ '4.5.4' ],
+32 silly audit   listr2: [ '7.0.2' ],
+32 silly audit   'load-json-file': [ '2.0.0' ],
+32 silly audit   lodash: [ '4.17.21' ],
+32 silly audit   'lodash.get': [ '4.4.2' ],
+32 silly audit   'log-symbols': [ '4.1.0' ],
+32 silly audit   'log-update': [ '5.0.1' ],
+32 silly audit   'lowercase-keys': [ '2.0.0' ],
+32 silly audit   'lru-cache': [ '7.18.3' ],
+32 silly audit   'make-fetch-happen': [ '10.2.1' ],
+32 silly audit   'map-age-cleaner': [ '0.1.3' ],
+32 silly audit   matcher: [ '3.0.0' ],
+32 silly audit   mem: [ '4.3.0' ],
+32 silly audit   merge2: [ '1.4.1' ],
+32 silly audit   micromatch: [ '4.0.7' ],
+32 silly audit   'mimic-fn': [ '2.1.0' ],
+32 silly audit   minimist: [ '1.2.8' ],
+32 silly audit   minipass: [ '3.3.6', '5.0.0' ],
+32 silly audit   'minipass-collect': [ '1.0.2' ],
+32 silly audit   'minipass-fetch': [ '2.1.2' ],
+32 silly audit   'minipass-flush': [ '1.0.5' ],
+32 silly audit   'minipass-pipeline': [ '1.2.4' ],
+32 silly audit   'minipass-sized': [ '1.0.3' ],
+32 silly audit   minizlib: [ '2.1.2' ],
+32 silly audit   mkdirp: [ '1.0.4', '0.5.6' ],
+32 silly audit   nan: [ '2.20.0' ],
+32 silly audit   negotiator: [ '0.6.3' ],
+32 silly audit   'nice-try': [ '1.0.5' ],
+32 silly audit   node: [ '22.3.0' ],
+32 silly audit   'node-abi': [ '3.65.0' ],
+32 silly audit   'node-api-version': [ '0.2.0' ],
+32 silly audit   'node-bin-setup': [ '1.1.3' ],
+32 silly audit   'node-fetch': [ '2.7.0' ],
+32 silly audit   'node-gyp': [ '9.4.1' ],
+32 silly audit   nopt: [ '6.0.0' ],
+32 silly audit   'normalize-package-data': [ '2.5.0' ],
+32 silly audit   'normalize-url': [ '6.1.0' ],
+32 silly audit   'npm-run-path': [ '2.0.2' ],
+32 silly audit   npmlog: [ '6.0.2' ],
+32 silly audit   'object-keys': [ '1.1.1' ],
+32 silly audit   once: [ '1.4.0' ],
+32 silly audit   onetime: [ '5.1.2' ],
+32 silly audit   ora: [ '5.4.1' ],
+32 silly audit   'restore-cursor': [ '3.1.0', '4.0.0' ],
+32 silly audit   'p-cancelable': [ '2.1.1' ],
+32 silly audit   'p-defer': [ '1.0.0' ],
+32 silly audit   'p-finally': [ '1.0.0' ],
+32 silly audit   'p-is-promise': [ '2.1.0' ],
+32 silly audit   'p-limit': [ '3.1.0', '1.3.0', '2.3.0' ],
+32 silly audit   'p-map': [ '4.0.0' ],
+32 silly audit   'p-try': [ '1.0.0', '2.2.0' ],
+32 silly audit   'parse-author': [ '2.0.0' ],
+32 silly audit   'parse-json': [ '2.2.0' ],
+32 silly audit   'parse-passwd': [ '1.0.0' ],
+32 silly audit   'path-is-absolute': [ '1.0.1' ],
+32 silly audit   'path-parse': [ '1.0.7' ],
+32 silly audit   'path-type': [ '2.0.0' ],
+32 silly audit   'pe-library': [ '1.0.1' ],
+32 silly audit   pend: [ '1.2.0' ],
+32 silly audit   picomatch: [ '2.3.1' ],
+32 silly audit   pify: [ '2.3.0' ],
+32 silly audit   'pkg-dir': [ '4.2.0' ],
+32 silly audit   plist: [ '3.1.0' ],
+32 silly audit   postject: [ '1.0.0-alpha.6' ],
+32 silly audit   progress: [ '2.0.3' ],
+32 silly audit   'promise-inflight': [ '1.0.1' ],
+32 silly audit   'promise-retry': [ '2.0.1' ],
+32 silly audit   pump: [ '3.0.0' ],
+32 silly audit   'queue-microtask': [ '1.2.3' ],
+32 silly audit   'quick-lru': [ '5.1.1' ],
+32 silly audit   'read-binary-file-arch': [ '1.0.6' ],
+32 silly audit   'read-pkg': [ '2.0.0' ],
+32 silly audit   'read-pkg-up': [ '2.0.0' ],
+32 silly audit   'readable-stream': [ '3.6.2' ],
+32 silly audit   rechoir: [ '0.8.0' ],
+32 silly audit   'require-directory': [ '2.1.1' ],
+32 silly audit   resedit: [ '2.0.2' ],
+32 silly audit   resolve: [ '1.22.8' ],
+32 silly audit   'resolve-alpn': [ '1.2.1' ],
+32 silly audit   'resolve-dir': [ '1.0.1' ],
+32 silly audit   'resolve-package': [ '1.0.1' ],
+32 silly audit   responselike: [ '2.0.1' ],
+32 silly audit   retry: [ '0.12.0' ],
+32 silly audit   reusify: [ '1.0.4' ],
+32 silly audit   rfdc: [ '1.4.1' ],
+32 silly audit   rimraf: [ '3.0.2', '2.6.3' ],
+32 silly audit   roarr: [ '2.15.4' ],
+32 silly audit   'run-parallel': [ '1.2.0' ],
+32 silly audit   'safe-buffer': [ '5.2.1' ],
+32 silly audit   'safer-buffer': [ '2.1.2' ],
+32 silly audit   'semver-compare': [ '1.0.0' ],
+32 silly audit   'serialize-error': [ '7.0.1' ],
+32 silly audit   'type-fest': [ '0.13.1', '1.4.0' ],
+32 silly audit   'set-blocking': [ '2.0.0' ],
+32 silly audit   'signal-exit': [ '3.0.7' ],
+32 silly audit   'slice-ansi': [ '5.0.0' ],
+32 silly audit   'smart-buffer': [ '4.2.0' ],
+32 silly audit   socks: [ '2.8.3' ],
+32 silly audit   'socks-proxy-agent': [ '7.0.0' ],
+32 silly audit   'source-map': [ '0.6.1' ],
+32 silly audit   'source-map-support': [ '0.5.21' ],
+32 silly audit   'spdx-correct': [ '3.2.0' ],
+32 silly audit   'spdx-exceptions': [ '2.5.0' ],
+32 silly audit   'spdx-expression-parse': [ '3.0.1' ],
+32 silly audit   'spdx-license-ids': [ '3.0.18' ],
+32 silly audit   'sprintf-js': [ '1.1.3' ],
+32 silly audit   ssri: [ '9.0.1' ],
+32 silly audit   string_decoder: [ '1.3.0' ],
+32 silly audit   'strip-bom': [ '3.0.0' ],
+32 silly audit   'strip-eof': [ '1.0.0' ],
+32 silly audit   'strip-outer': [ '1.0.1' ],
+32 silly audit   'sudo-prompt': [ '9.2.1' ],
+32 silly audit   sumchecker: [ '3.0.1' ],
+32 silly audit   'supports-color': [ '7.2.0' ],
+32 silly audit   'supports-preserve-symlinks-flag': [ '1.0.0' ],
+32 silly audit   tar: [ '6.2.1' ],
+32 silly audit   temp: [ '0.9.4' ],
+32 silly audit   'tiny-each-async': [ '2.0.3' ],
+32 silly audit   tmp: [ '0.2.3' ],
+32 silly audit   'tmp-promise': [ '3.0.3' ],
+32 silly audit   'to-regex-range': [ '5.0.1' ],
+32 silly audit   tr46: [ '0.0.3' ],
+32 silly audit   'trim-repeated': [ '1.0.0' ],
+32 silly audit   'undici-types': [ '5.26.5' ],
+32 silly audit   'unique-filename': [ '2.0.1' ],
+32 silly audit   'unique-slug': [ '3.0.0' ],
+32 silly audit   username: [ '5.1.0' ],
+32 silly audit   'util-deprecate': [ '1.0.2' ],
+32 silly audit   'validate-npm-package-license': [ '3.0.4' ],
+32 silly audit   wcwidth: [ '1.0.1' ],
+32 silly audit   'webidl-conversions': [ '3.0.1' ],
+32 silly audit   'whatwg-url': [ '5.0.0' ],
+32 silly audit   'wide-align': [ '1.1.5' ],
+32 silly audit   'word-wrap': [ '1.2.5' ],
+32 silly audit   wrappy: [ '1.0.2' ],
+32 silly audit   xmlbuilder: [ '15.1.1' ],
+32 silly audit   'xterm-addon-fit': [ '0.8.0' ],
+32 silly audit   y18n: [ '5.0.8' ],
+32 silly audit   yallist: [ '4.0.0' ],
+32 silly audit   'yarn-or-npm': [ '3.0.1' ],
+32 silly audit   yauzl: [ '2.10.0' ],
+32 silly audit   'yocto-queue': [ '0.1.0' ],
+32 silly audit   'node-pty': [ '1.0.0' ]
+32 silly audit }
+33 verbose reify failed optional dependency C:\Users\Ashton Drye\Electron Apps\AstofTerm\node_modules\electron-installer-debian
+34 silly reify mark deleted [
+34 silly reify   'C:\\Users\\Ashton Drye\\Electron Apps\\AstofTerm\\node_modules\\electron-installer-debian',
+34 silly reify   'C:\\Users\\Ashton Drye\\Electron Apps\\AstofTerm\\node_modules\\.bin\\electron-installer-debian',
+34 silly reify   'C:\\Users\\Ashton Drye\\Electron Apps\\AstofTerm\\node_modules\\.bin\\electron-installer-debian.cmd',
+34 silly reify   'C:\\Users\\Ashton Drye\\Electron Apps\\AstofTerm\\node_modules\\.bin\\electron-installer-debian.ps1'
+34 silly reify ]
+35 verbose reify failed optional dependency C:\Users\Ashton Drye\Electron Apps\AstofTerm\node_modules\electron-installer-debian\node_modules\@malept\cross-spawn-promise
+36 silly reify mark deleted [
+36 silly reify   'C:\\Users\\Ashton Drye\\Electron Apps\\AstofTerm\\node_modules\\electron-installer-debian\\node_modules\\@malept\\cross-spawn-promise'
+36 silly reify ]
+37 verbose reify failed optional dependency C:\Users\Ashton Drye\Electron Apps\AstofTerm\node_modules\get-folder-size
+38 silly reify mark deleted [
+38 silly reify   'C:\\Users\\Ashton Drye\\Electron Apps\\AstofTerm\\node_modules\\get-folder-size',
+38 silly reify   'C:\\Users\\Ashton Drye\\Electron Apps\\AstofTerm\\node_modules\\.bin\\get-folder-size',
+38 silly reify   'C:\\Users\\Ashton Drye\\Electron Apps\\AstofTerm\\node_modules\\.bin\\get-folder-size.cmd',
+38 silly reify   'C:\\Users\\Ashton Drye\\Electron Apps\\AstofTerm\\node_modules\\.bin\\get-folder-size.ps1'
+38 silly reify ]
+39 verbose reify failed optional dependency C:\Users\Ashton Drye\Electron Apps\AstofTerm\node_modules\electron-installer-debian\node_modules\yargs
+40 silly reify mark deleted [
+40 silly reify   'C:\\Users\\Ashton Drye\\Electron Apps\\AstofTerm\\node_modules\\electron-installer-debian\\node_modules\\yargs'
+40 silly reify ]
+41 verbose reify failed optional dependency C:\Users\Ashton Drye\Electron Apps\AstofTerm\node_modules\gar
+42 silly reify mark deleted [
+42 silly reify   'C:\\Users\\Ashton Drye\\Electron Apps\\AstofTerm\\node_modules\\gar'
+42 silly reify ]
+43 verbose reify failed optional dependency C:\Users\Ashton Drye\Electron Apps\AstofTerm\node_modules\tiny-each-async
+44 silly reify mark deleted [
+44 silly reify   'C:\\Users\\Ashton Drye\\Electron Apps\\AstofTerm\\node_modules\\tiny-each-async'
+44 silly reify ]
+45 verbose reify failed optional dependency C:\Users\Ashton Drye\Electron Apps\AstofTerm\node_modules\electron-installer-debian\node_modules\cliui
+46 silly reify mark deleted [
+46 silly reify   'C:\\Users\\Ashton Drye\\Electron Apps\\AstofTerm\\node_modules\\electron-installer-debian\\node_modules\\cliui'
+46 silly reify ]
+47 verbose reify failed optional dependency C:\Users\Ashton Drye\Electron Apps\AstofTerm\node_modules\electron-installer-debian\node_modules\string-width
+48 silly reify mark deleted [
+48 silly reify   'C:\\Users\\Ashton Drye\\Electron Apps\\AstofTerm\\node_modules\\electron-installer-debian\\node_modules\\string-width'
+48 silly reify ]
+49 verbose reify failed optional dependency C:\Users\Ashton Drye\Electron Apps\AstofTerm\node_modules\electron-installer-debian\node_modules\yargs-parser
+50 silly reify mark deleted [
+50 silly reify   'C:\\Users\\Ashton Drye\\Electron Apps\\AstofTerm\\node_modules\\electron-installer-debian\\node_modules\\yargs-parser'
+50 silly reify ]
+51 verbose reify failed optional dependency C:\Users\Ashton Drye\Electron Apps\AstofTerm\node_modules\electron-installer-debian\node_modules\strip-ansi
+52 silly reify mark deleted [
+52 silly reify   'C:\\Users\\Ashton Drye\\Electron Apps\\AstofTerm\\node_modules\\electron-installer-debian\\node_modules\\strip-ansi'
+52 silly reify ]
+53 verbose reify failed optional dependency C:\Users\Ashton Drye\Electron Apps\AstofTerm\node_modules\electron-installer-debian\node_modules\wrap-ansi
+54 silly reify mark deleted [
+54 silly reify   'C:\\Users\\Ashton Drye\\Electron Apps\\AstofTerm\\node_modules\\electron-installer-debian\\node_modules\\wrap-ansi'
+54 silly reify ]
+55 verbose reify failed optional dependency C:\Users\Ashton Drye\Electron Apps\AstofTerm\node_modules\electron-installer-debian\node_modules\emoji-regex
+56 silly reify mark deleted [
+56 silly reify   'C:\\Users\\Ashton Drye\\Electron Apps\\AstofTerm\\node_modules\\electron-installer-debian\\node_modules\\emoji-regex'
+56 silly reify ]
+57 verbose reify failed optional dependency C:\Users\Ashton Drye\Electron Apps\AstofTerm\node_modules\electron-installer-debian\node_modules\is-fullwidth-code-point
+58 silly reify mark deleted [
+58 silly reify   'C:\\Users\\Ashton Drye\\Electron Apps\\AstofTerm\\node_modules\\electron-installer-debian\\node_modules\\is-fullwidth-code-point'
+58 silly reify ]
+59 verbose reify failed optional dependency C:\Users\Ashton Drye\Electron Apps\AstofTerm\node_modules\electron-installer-debian\node_modules\ansi-regex
+60 silly reify mark deleted [
+60 silly reify   'C:\\Users\\Ashton Drye\\Electron Apps\\AstofTerm\\node_modules\\electron-installer-debian\\node_modules\\ansi-regex'
+60 silly reify ]
+61 verbose reify failed optional dependency C:\Users\Ashton Drye\Electron Apps\AstofTerm\node_modules\electron-installer-redhat
+62 silly reify mark deleted [
+62 silly reify   'C:\\Users\\Ashton Drye\\Electron Apps\\AstofTerm\\node_modules\\electron-installer-redhat',
+62 silly reify   'C:\\Users\\Ashton Drye\\Electron Apps\\AstofTerm\\node_modules\\.bin\\electron-installer-redhat',
+62 silly reify   'C:\\Users\\Ashton Drye\\Electron Apps\\AstofTerm\\node_modules\\.bin\\electron-installer-redhat.cmd',
+62 silly reify   'C:\\Users\\Ashton Drye\\Electron Apps\\AstofTerm\\node_modules\\.bin\\electron-installer-redhat.ps1'
+62 silly reify ]
+63 verbose reify failed optional dependency C:\Users\Ashton Drye\Electron Apps\AstofTerm\node_modules\electron-installer-redhat\node_modules\@malept\cross-spawn-promise
+64 silly reify mark deleted [
+64 silly reify   'C:\\Users\\Ashton Drye\\Electron Apps\\AstofTerm\\node_modules\\electron-installer-redhat\\node_modules\\@malept\\cross-spawn-promise'
+64 silly reify ]
+65 verbose reify failed optional dependency C:\Users\Ashton Drye\Electron Apps\AstofTerm\node_modules\electron-installer-redhat\node_modules\yargs
+66 silly reify mark deleted [
+66 silly reify   'C:\\Users\\Ashton Drye\\Electron Apps\\AstofTerm\\node_modules\\electron-installer-redhat\\node_modules\\yargs'
+66 silly reify ]
+67 verbose reify failed optional dependency C:\Users\Ashton Drye\Electron Apps\AstofTerm\node_modules\electron-installer-redhat\node_modules\cliui
+68 silly reify mark deleted [
+68 silly reify   'C:\\Users\\Ashton Drye\\Electron Apps\\AstofTerm\\node_modules\\electron-installer-redhat\\node_modules\\cliui'
+68 silly reify ]
+69 verbose reify failed optional dependency C:\Users\Ashton Drye\Electron Apps\AstofTerm\node_modules\electron-installer-redhat\node_modules\string-width
+70 silly reify mark deleted [
+70 silly reify   'C:\\Users\\Ashton Drye\\Electron Apps\\AstofTerm\\node_modules\\electron-installer-redhat\\node_modules\\string-width'
+70 silly reify ]
+71 verbose reify failed optional dependency C:\Users\Ashton Drye\Electron Apps\AstofTerm\node_modules\electron-installer-redhat\node_modules\yargs-parser
+72 silly reify mark deleted [
+72 silly reify   'C:\\Users\\Ashton Drye\\Electron Apps\\AstofTerm\\node_modules\\electron-installer-redhat\\node_modules\\yargs-parser'
+72 silly reify ]
+73 verbose reify failed optional dependency C:\Users\Ashton Drye\Electron Apps\AstofTerm\node_modules\electron-installer-redhat\node_modules\strip-ansi
+74 silly reify mark deleted [
+74 silly reify   'C:\\Users\\Ashton Drye\\Electron Apps\\AstofTerm\\node_modules\\electron-installer-redhat\\node_modules\\strip-ansi'
+74 silly reify ]
+75 verbose reify failed optional dependency C:\Users\Ashton Drye\Electron Apps\AstofTerm\node_modules\electron-installer-redhat\node_modules\wrap-ansi
+76 silly reify mark deleted [
+76 silly reify   'C:\\Users\\Ashton Drye\\Electron Apps\\AstofTerm\\node_modules\\electron-installer-redhat\\node_modules\\wrap-ansi'
+76 silly reify ]
+77 verbose reify failed optional dependency C:\Users\Ashton Drye\Electron Apps\AstofTerm\node_modules\electron-installer-redhat\node_modules\emoji-regex
+78 silly reify mark deleted [
+78 silly reify   'C:\\Users\\Ashton Drye\\Electron Apps\\AstofTerm\\node_modules\\electron-installer-redhat\\node_modules\\emoji-regex'
+78 silly reify ]
+79 verbose reify failed optional dependency C:\Users\Ashton Drye\Electron Apps\AstofTerm\node_modules\electron-installer-redhat\node_modules\is-fullwidth-code-point
+80 silly reify mark deleted [
+80 silly reify   'C:\\Users\\Ashton Drye\\Electron Apps\\AstofTerm\\node_modules\\electron-installer-redhat\\node_modules\\is-fullwidth-code-point'
+80 silly reify ]
+81 verbose reify failed optional dependency C:\Users\Ashton Drye\Electron Apps\AstofTerm\node_modules\electron-installer-redhat\node_modules\ansi-regex
+82 silly reify mark deleted [
+82 silly reify   'C:\\Users\\Ashton Drye\\Electron Apps\\AstofTerm\\node_modules\\electron-installer-redhat\\node_modules\\ansi-regex'
+82 silly reify ]
+83 warn deprecated gar@1.0.4: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+84 info run node-pty@1.0.0 install node_modules/node-pty node-gyp rebuild
+85 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 850ms
+86 silly audit report {}
+87 info run node-pty@1.0.0 install { code: 3221225786, signal: null }
+88 verbose stack Error: command failed
+88 verbose stack     at promiseSpawn (C:\Users\Ashton Drye\AppData\Roaming\npm\node_modules\npm\node_modules\@npmcli\promise-spawn\lib\index.js:22:22)
+88 verbose stack     at spawnWithShell (C:\Users\Ashton Drye\AppData\Roaming\npm\node_modules\npm\node_modules\@npmcli\promise-spawn\lib\index.js:124:10)
+88 verbose stack     at promiseSpawn (C:\Users\Ashton Drye\AppData\Roaming\npm\node_modules\npm\node_modules\@npmcli\promise-spawn\lib\index.js:12:12)
+88 verbose stack     at runScriptPkg (C:\Users\Ashton Drye\AppData\Roaming\npm\node_modules\npm\node_modules\@npmcli\run-script\lib\run-script-pkg.js:77:13)
+88 verbose stack     at runScript (C:\Users\Ashton Drye\AppData\Roaming\npm\node_modules\npm\node_modules\@npmcli\run-script\lib\run-script.js:9:12)
+88 verbose stack     at C:\Users\Ashton Drye\AppData\Roaming\npm\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\rebuild.js:329:17
+88 verbose stack     at run (C:\Users\Ashton Drye\AppData\Roaming\npm\node_modules\npm\node_modules\promise-call-limit\dist\commonjs\index.js:67:22)
+88 verbose stack     at C:\Users\Ashton Drye\AppData\Roaming\npm\node_modules\npm\node_modules\promise-call-limit\dist\commonjs\index.js:84:9
+88 verbose stack     at new Promise (<anonymous>)
+88 verbose stack     at callLimit (C:\Users\Ashton Drye\AppData\Roaming\npm\node_modules\npm\node_modules\promise-call-limit\dist\commonjs\index.js:35:69)
+88 verbose stack     at #runScripts (C:\Users\Ashton Drye\AppData\Roaming\npm\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\rebuild.js:289:11)
+88 verbose stack     at #build (C:\Users\Ashton Drye\AppData\Roaming\npm\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\rebuild.js:164:29)
+88 verbose stack     at async Arborist.rebuild (C:\Users\Ashton Drye\AppData\Roaming\npm\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\rebuild.js:62:5)
+88 verbose stack     at async [reifyPackages] (C:\Users\Ashton Drye\AppData\Roaming\npm\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:325:11)
+88 verbose stack     at async Arborist.reify (C:\Users\Ashton Drye\AppData\Roaming\npm\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:142:5)
+88 verbose stack     at async Install.exec (C:\Users\Ashton Drye\AppData\Roaming\npm\node_modules\npm\lib\commands\install.js:150:5)
+89 verbose pkgid node-pty@1.0.0
+90 error code 3221225786
+91 error path C:\Users\Ashton Drye\Electron Apps\AstofTerm\node_modules\node-pty
+92 error command failed
+93 error command C:\Windows\system32\cmd.exe /d /s /c node-gyp rebuild
+94 error Warning: Do not know how to convert MSVS attribute SpectreMitigation
+94 error Warning: Do not know how to convert MSVS attribute SpectreMitigation
+94 error Warning: Do not know how to convert MSVS attribute SpectreMitigation
+94 error Warning: Do not know how to convert MSVS attribute SpectreMitigation
+94 error Warning: Do not know how to convert MSVS attribute SpectreMitigation
+94 error Warning: Do not know how to convert MSVS attribute SpectreMitigation
+94 error Warning: Do not know how to convert MSVS attribute SpectreMitigation
+94 error Warning: Do not know how to convert MSVS attribute SpectreMitigation
+94 error Warning: Do not know how to convert MSVS attribute SpectreMitigation
+94 error Warning: Do not know how to convert MSVS attribute SpectreMitigation
+94 error Warning: Do not know how to convert MSVS attribute SpectreMitigation
+94 error Warning: Do not know how to convert MSVS attribute SpectreMitigation
+94 error
+94 error   conpty.cc
+94 error   path_util.cc
+94 error   win_delay_load_hook.cc
+94 error   Generating code
+94 error   Previous IPDB not found, fall back to full compilation.
+94 error   All 1042 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+94 error   Finished generating code
+94 error   conpty.vcxproj -> C:\Users\Ashton Drye\Electron Apps\AstofTerm\node_modules\node-pty\build\Release\\conpty.node
+94 error   conpty_console_list.cc
+94 error   win_delay_load_hook.cc
+94 error   Generating code
+94 error   Previous IPDB not found, fall back to full compilation.
+94 error   All 237 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+94 error   Finished generating code
+94 error   conpty_console_list.vcxproj -> C:\Users\Ashton Drye\Electron Apps\AstofTerm\node_modules\node-pty\build\Release\\conpty_console_list.node
+94 error   Agent.cc
+94 error   AgentCreateDesktop.cc
+94 error   ConsoleFont.cc
+94 error   ConsoleInput.cc
+94 error   ConsoleInputReencoding.cc
+94 error   ConsoleLine.cc
+94 error   DebugShowInput.cc
+94 error   DefaultInputMap.cc
+94 error   EventLoop.cc
+94 error   InputMap.cc
+94 error   LargeConsoleRead.cc
+94 error   NamedPipe.cc
+94 error   Scraper.cc
+94 error   Terminal.cc
+94 error   Win32Console.cc
+94 error   Win32ConsoleBuffer.cc
+94 error   main.cc
+94 error   BackgroundDesktop.cc
+94 error   Buffer.cc
+94 error   DebugClient.cc
+94 error   GenRandom.cc
+94 error   OwnedHandle.cc
+94 error   StringUtil.cc
+94 error   WindowsSecurity.cc
+94 error   WindowsVersion.cc
+94 error   WinptyAssert.cc
+94 error   WinptyException.cc
+94 error   WinptyVersion.cc
+94 error   win_delay_load_hook.cc
+94 error   Generating code
+94 error   Previous IPDB not found, fall back to full compilation.
+94 error C:\Users\Ashton Drye\Electron Apps\AstofTerm\node_modules\node-pty\deps\winpty\src\agent\Agent.cc(231): warning C4722: 'Agent::~Agent': destructor never returns, potential memory leak [C:\Users\Ashton Drye\Electron Apps\AstofTerm\node_modules\node-pty\build\deps\winpty\src\winpty-agent.vcxproj]
+94 error   All 1782 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+94 error   Finished generating code
+94 error   winpty-agent.vcxproj -> C:\Users\Ashton Drye\Electron Apps\AstofTerm\node_modules\node-pty\build\Release\\winpty-agent.exe
+94 error   AgentLocation.cc
+94 error   winpty.cc
+94 error   BackgroundDesktop.cc
+94 error   Buffer.cc
+94 error   DebugClient.cc
+94 error   GenRandom.cc
+94 error Attempting to cancel the build...
+94 error Terminate batch job (Y/N)?
+95 error gyp info it worked if it ends with ok
+95 error gyp info using node-gyp@9.4.1
+95 error gyp info using node@22.3.0 | win32 | x64
+95 error (node:10756) [DEP0060] DeprecationWarning: The `util._extend` API is deprecated. Please use Object.assign() instead.
+95 error (Use `node --trace-deprecation ...` to show where the warning was created)
+95 error gyp info find Python using Python version 3.11.9 found at "C:\Users\Ashton Drye\AppData\Local\Microsoft\WindowsApps\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\python.exe"
+95 error gyp info find VS using VS2022 (17.10.35013.160) found at:
+95 error gyp info find VS "C:\Program Files\Microsoft Visual Studio\2022\Community"
+95 error gyp info find VS run with --verbose for detailed information
+95 error gyp info spawn C:\Users\Ashton Drye\AppData\Local\Microsoft\WindowsApps\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\python.exe
+95 error gyp info spawn args [
+95 error gyp info spawn args   'C:\\Users\\Ashton Drye\\Electron Apps\\AstofTerm\\node_modules\\node-gyp\\gyp\\gyp_main.py',
+95 error gyp info spawn args   'binding.gyp',
+95 error gyp info spawn args   '-f',
+95 error gyp info spawn args   'msvs',
+95 error gyp info spawn args   '-I',
+95 error gyp info spawn args   'C:\\Users\\Ashton Drye\\Electron Apps\\AstofTerm\\node_modules\\node-pty\\build\\config.gypi',
+95 error gyp info spawn args   '-I',
+95 error gyp info spawn args   'C:\\Users\\Ashton Drye\\Electron Apps\\AstofTerm\\node_modules\\node-gyp\\addon.gypi',
+95 error gyp info spawn args   '-I',
+95 error gyp info spawn args   'C:\\Users\\Ashton Drye\\AppData\\Local\\node-gyp\\Cache\\22.3.0\\include\\node\\common.gypi',
+95 error gyp info spawn args   '-Dlibrary=shared_library',
+95 error gyp info spawn args   '-Dvisibility=default',
+95 error gyp info spawn args   '-Dnode_root_dir=C:\\Users\\Ashton Drye\\AppData\\Local\\node-gyp\\Cache\\22.3.0',
+95 error gyp info spawn args   '-Dnode_gyp_dir=C:\\Users\\Ashton Drye\\Electron Apps\\AstofTerm\\node_modules\\node-gyp',
+95 error gyp info spawn args   '-Dnode_lib_file=C:\\\\Users\\\\Ashton Drye\\\\AppData\\\\Local\\\\node-gyp\\\\Cache\\\\22.3.0\\\\<(target_arch)\\\\node.lib',
+95 error gyp info spawn args   '-Dmodule_root_dir=C:\\Users\\Ashton Drye\\Electron Apps\\AstofTerm\\node_modules\\node-pty',
+95 error gyp info spawn args   '-Dnode_engine=v8',
+95 error gyp info spawn args   '--depth=.',
+95 error gyp info spawn args   '--no-parallel',
+95 error gyp info spawn args   '--generator-output',
+95 error gyp info spawn args   'C:\\Users\\Ashton Drye\\Electron Apps\\AstofTerm\\node_modules\\node-pty\\build',
+95 error gyp info spawn args   '-Goutput_dir=.'
+95 error gyp info spawn args ]
+95 error gyp info spawn C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\MSBuild.exe
+95 error gyp info spawn args [
+95 error gyp info spawn args   'build/binding.sln',
+95 error gyp info spawn args   '/clp:Verbosity=minimal',
+95 error gyp info spawn args   '/nologo',
+95 error gyp info spawn args   '/p:Configuration=Release;Platform=x64'
+95 error gyp info spawn args ]
+95 error ^C
+96 silly unfinished npm timer reify 1719515753927
+97 silly unfinished npm timer reify:build 1719515754917
+98 silly unfinished npm timer build 1719515754917
+99 silly unfinished npm timer build:deps 1719515754917
+100 silly unfinished npm timer build:run:install 1719515754920
+101 silly unfinished npm timer build:run:install:node_modules/node-pty 1719515754920
+102 verbose cwd C:\Users\Ashton Drye\Electron Apps\AstofTerm
+103 verbose os Windows_NT 10.0.19045
+104 verbose node v22.3.0
+105 verbose npm  v10.8.1
+106 verbose exit 3221225786
+107 verbose code 3221225786
+108 error A complete log of this run can be found in: C:\Users\Ashton Drye\AppData\Local\npm-cache\_logs\2024-06-27T19_15_53_496Z-debug-0.log
