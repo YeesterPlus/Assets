@@ -1,0 +1,460 @@
+---------------------------------------------------------------------
+Mon Sep 16 01:12:58 2024
+
+Exception code: C0000005
+Exception addr: 00007FF7E9C47565
+Access violation (read access) at 0000000000000008
+RAX:0000000000000040	RBX:00000072d4555000	RCX:0000000000000000
+RDX:00000072d45cc0c0	RSI:0000000000000018	RDI:00000072d4600000
+RBP:00000072d45cb130	RSP:00000072d45cb070	R8 :00000072d4153000
+R9 :0000000000000000	R10:0000000000000000	R11:0000000000000000
+R12:00007ff7e9d45910	R13:0000000000000000	R14:00000000000003fc
+R15:00000072d45cc0c0	RIP:00007ff7e9c47565 EFL:00010202
+FP Control: 0000037f	FP Status:  00000020	FP Tag:     00000000
+
+
+Crashed in the VM thread
+
+
+
+Hardware information: 
+	Manufacturer: Unknown
+	Model: Unknown
+	Number of processors: 12
+	Page size: 4096
+
+Memory Information (upon launch):
+	Physical Memory Size: 16056324 kbytes
+	Physical Memory Free: 3593176 kbytes
+	Page File Size: 33076480 kbytes
+	Page File Free: 7880160 kbytes
+	Virtual Memory Size: 137438953344 kbytes
+	Virtual Memory Free: 137434639848 kbytes
+	Memory Load: 77 percent
+
+Processor 0: AMD Ryzen 5 5625U with Radeon Graphics         
+	Identifier: AMD64 Family 25 Model 80 Stepping 0
+	~MHZ: 2296
+
+Processor 1: AMD Ryzen 5 5625U with Radeon Graphics         
+	Identifier: AMD64 Family 25 Model 80 Stepping 0
+	~MHZ: 2296
+
+Processor 2: AMD Ryzen 5 5625U with Radeon Graphics         
+	Identifier: AMD64 Family 25 Model 80 Stepping 0
+	~MHZ: 2296
+
+Processor 3: AMD Ryzen 5 5625U with Radeon Graphics         
+	Identifier: AMD64 Family 25 Model 80 Stepping 0
+	~MHZ: 2296
+
+Processor 4: AMD Ryzen 5 5625U with Radeon Graphics         
+	Identifier: AMD64 Family 25 Model 80 Stepping 0
+	~MHZ: 2296
+
+Processor 5: AMD Ryzen 5 5625U with Radeon Graphics         
+	Identifier: AMD64 Family 25 Model 80 Stepping 0
+	~MHZ: 2296
+
+Processor 6: AMD Ryzen 5 5625U with Radeon Graphics         
+	Identifier: AMD64 Family 25 Model 80 Stepping 0
+	~MHZ: 2296
+
+Processor 7: AMD Ryzen 5 5625U with Radeon Graphics         
+	Identifier: AMD64 Family 25 Model 80 Stepping 0
+	~MHZ: 2296
+
+Processor 8: AMD Ryzen 5 5625U with Radeon Graphics         
+	Identifier: AMD64 Family 25 Model 80 Stepping 0
+	~MHZ: 2296
+
+Processor 9: AMD Ryzen 5 5625U with Radeon Graphics         
+	Identifier: AMD64 Family 25 Model 80 Stepping 0
+	~MHZ: 2296
+
+Operating System: Windows 10 Pro (Build 19045 )
+	Registered Owner: Ashton Drye
+	Registered Company: 
+	SP major version: 0
+	SP minor version: 0
+	Suite mask: 100
+	Product type: 1
+
+Display Information: 
+	Graphics adapter name: AMD Radeon (TM) Graphics
+	Primary monitor resolution: 1366 x 768
+
+Device: ???
+	Adapter String: AMD Radeon(TM) Graphics
+	Bios String: 113-BARCELO-004
+	Chip Type: AMD Radeon Graphics Processor (0x15E7)
+	DAC Type: Internal DAC(400MHz)
+	Memory Size: 0x20000000
+
+Driver Versions:
+	aticfx64: 8.17.10.1700
+
+VM Version: Cog Spur VM 5.0 (release) from Dec 20 2023
+Compiler: gcc Clang 17.0.6
+Interpreter Build: CoInterpreter VMMaker.oscog-eem.3339 uuid: b1c834e2-5de7-464c-aeb5-4f2a7b8812d6 Dec 20 2023
+Cogit Build: StackToRegisterMappingCogit VMMaker.oscog-eem.3339 uuid: b1c834e2-5de7-464c-aeb5-4f2a7b8812d6 Dec 20 2023
+Source Version: VM: 202312181441 https://github.com/OpenSmalltalk/opensmalltalk-vm
+Date: Mon Dec 18 15:41:18 2023 CommitHash: cc2dd90
+Plugins: 202312181441 https://github.com/OpenSmalltalk/opensmalltalk-vm
+
+Current byte code: -1
+Primitive index: 70
+
+Loaded plugins:
+	ZipPlugin VMMaker.oscog-eem.3224 (i)
+	Win32OSProcessPlugin VMConstruction-Plugins-OSProcessPlugin.oscog-eem.75 (e)
+	SocketPlugin VMMaker.oscog-eem.3275 (i)
+	BitBltPlugin VMMaker.oscog-eem.3313 (i)
+	SurfacePlugin Dec 20 2023 (i)
+	FilePlugin VMMaker.oscog-eem.3339 (i)
+	MiscPrimitivePlugin VMMaker.oscog-eem.3228 (i)
+
+Module information:
+	00007ff969dc0000 - 00007ff969dca000: C:\Windows\SYSTEM32\VERSION.dll
+	00007ff96c6a0000 - 00007ff96c8a3000: C:\Windows\system32\twinapi.appcore.dll
+	000000006cec0000 - 000000006cee5000: C:\Users\Ashton Drye\Downloads\Squeak6.0-22148-64bit-202312181441-Windows-x64\Squeak6.0-22148-64bit-202312181441-Windows-x64\Win32OSProcessPlugin.DLL
+	00007ff96ea10000 - 00007ff96eb02000: C:\Windows\SYSTEM32\CoreMessaging.dll
+	00007ff96fdc0000 - 00007ff96ff17000: C:\Windows\SYSTEM32\wintypes.dll
+	00007ff970770000 - 00007ff970866000: C:\Windows\SYSTEM32\PROPSYS.dll
+	00007ff970b80000 - 00007ff970b87000: C:\Windows\SYSTEM32\SHFOLDER.dll
+	00007ff970e80000 - 00007ff970f1e000: C:\Windows\system32\uxtheme.dll
+	00007ff971370000 - 00007ff971382000: C:\Windows\SYSTEM32\kernel.appcore.dll
+	00007ff971570000 - 00007ff971d13000: C:\Windows\SYSTEM32\windows.storage.dll
+	00007ff971d80000 - 00007ff971e76000: C:\Windows\system32\dxgi.dll
+	00007ff972720000 - 00007ff972753000: C:\Windows\SYSTEM32\ntmarta.dll
+	00007ff972d20000 - 00007ff972d2c000: C:\Windows\SYSTEM32\CRYPTBASE.DLL
+	00007ff972db0000 - 00007ff972dde000: C:\Windows\SYSTEM32\Wldp.dll
+	00007ff9732c0000 - 00007ff9732d2000: C:\Windows\SYSTEM32\UMPDC.dll
+	00007ff9732e0000 - 00007ff97332b000: C:\Windows\SYSTEM32\powrprof.dll
+	00007ff9734a0000 - 00007ff9734d2000: C:\Windows\SYSTEM32\SspiCli.dll
+	00007ff9736e0000 - 00007ff97372e000: C:\Windows\System32\cfgmgr32.dll
+	00007ff973730000 - 00007ff9737cd000: C:\Windows\System32\msvcp_win.dll
+	00007ff9737d0000 - 00007ff9737f2000: C:\Windows\System32\win32u.dll
+	00007ff973960000 - 00007ff973c5d000: C:\Windows\System32\KERNELBASE.dll
+	00007ff973c60000 - 00007ff973c87000: C:\Windows\System32\bcrypt.dll
+	00007ff973c90000 - 00007ff973da7000: C:\Windows\System32\gdi32full.dll
+	00007ff973db0000 - 00007ff973e32000: C:\Windows\System32\bcryptPrimitives.dll
+	00007ff973e40000 - 00007ff973f40000: C:\Windows\System32\ucrtbase.dll
+	00007ff973f40000 - 00007ff973fe0000: C:\Windows\System32\sechost.dll
+	00007ff974040000 - 00007ff97406b000: C:\Windows\System32\GDI32.dll
+	00007ff974070000 - 00007ff97413d000: C:\Windows\System32\OLEAUT32.dll
+	00007ff974670000 - 00007ff9749c3000: C:\Windows\System32\combase.dll
+	00007ff9749d0000 - 00007ff974afb000: C:\Windows\System32\ole32.dll
+	00007ff974b00000 - 00007ff974b55000: C:\Windows\System32\SHLWAPI.dll
+	00007ff974da0000 - 00007ff974e4d000: C:\Windows\System32\shcore.dll
+	00007ff974e50000 - 00007ff974ebb000: C:\Windows\System32\WS2_32.dll
+	00007ff974ec0000 - 00007ff97505d000: C:\Windows\System32\USER32.dll
+	00007ff975080000 - 00007ff9751a3000: C:\Windows\System32\RPCRT4.dll
+	00007ff975240000 - 00007ff9752e9000: C:\Windows\System32\clbcatq.dll
+	00007ff9752f0000 - 00007ff975a5f000: C:\Windows\System32\SHELL32.dll
+	00007ff975a60000 - 00007ff975afe000: C:\Windows\System32\msvcrt.dll
+	00007ff975b10000 - 00007ff975b3f000: C:\Windows\System32\IMM32.DLL
+	00007ff975b40000 - 00007ff975c01000: C:\Windows\System32\KERNEL32.DLL
+	00007ff975c10000 - 00007ff975cc0000: C:\Windows\System32\ADVAPI32.dll
+	00007ff975cc0000 - 00007ff975d9a000: C:\Windows\System32\comdlg32.dll
+	00007ff975da0000 - 00007ff975eb5000: C:\Windows\System32\MSCTF.dll
+	00007ff975ec0000 - 00007ff975ec8000: C:\Windows\System32\psapi.dll
+	00007ff975f10000 - 00007ff976108000: C:\Windows\SYSTEM32\ntdll.dll
+	00007ff7e9ba0000 - 00007ff7e9e3c000: C:\Users\Ashton Drye\Downloads\Squeak6.0-22148-64bit-202312181441-Windows-x64\Squeak6.0-22148-64bit-202312181441-Windows-x64\Squeak.exe
+	00007ff7e9f00000 - 00007ff7ea9898e0: CogCode
+	00007ff946f30000 - 00007ff946f6e000: C:\Windows\system32\dataexchange.dll
+	00007ff94bf50000 - 00007ff94bf7f000: C:\Windows\SYSTEM32\DINPUT.dll
+	00007ff8520a0000 - 00007ff85213c000: C:\Windows\SYSTEM32\DSOUND.dll
+	00007ff958b60000 - 00007ff958cb2000: C:\Windows\SYSTEM32\inputhost.dll
+	00007ff958cc0000 - 00007ff958db9000: C:\Windows\SYSTEM32\textinputframework.dll
+	00007ff959230000 - 00007ff9594ca000: C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.4355_none_60b8b9eb71f62e16\COMCTL32.dll
+	00007ff959540000 - 00007ff9595aa000: C:\Windows\system32\Ninput.dll
+	00007ff95d300000 - 00007ff95d326000: C:\Windows\SYSTEM32\winmmbase.dll
+	00007ff960e20000 - 00007ff960e47000: C:\Windows\SYSTEM32\WINMM.dll
+	00007ff9685d0000 - 00007ff968833000: C:\Windows\system32\d3d11.dll
+	0000000068d00000 - 0000000068d45000: C:\Users\Ashton Drye\Downloads\Squeak6.0-22148-64bit-202312181441-Windows-x64\Squeak6.0-22148-64bit-202312181441-Windows-x64\SqueakFFIPrims.DLL
+	00007ff968e00000 - 00007ff968fe4000: C:\Windows\system32\dcomp.dll
+	00007ff969370000 - 00007ff9696cb000: C:\Windows\SYSTEM32\CoreUIComponents.dll
+
+Primitive trace:
+Array>>#new:
+Behavior>>#basicNew:
+Array>>#new:
+Behavior>>#basicNew:
+Array>>#new:
+Behavior>>#basicNew:
+Array>>#new:
+Behavior>>#basicNew:
+Array>>#new:
+Behavior>>#basicNew:
+Context>>#stackp:
+BlockClosure>>#numCopiedValues
+BlockClosure>>#numCopiedValues
+Process>>#resume
+Semaphore>>#signal
+Behavior>>#basicNew:
+Array>>#new:
+Behavior>>#basicNew
+Object>>#perform:
+String>>#compareWith:collated:
+Object>>#perform:
+String>>#compareWith:collated:
+Object>>#perform:
+String>>#compareWith:collated:
+Object>>#perform:
+String>>#compareWith:collated:
+Context>>#objectClass:
+Object>>#shallowCopy
+**StackOverflow**
+Behavior>>#basicNew
+Array>>#new:
+Behavior>>#basicNew
+Object>>#perform:
+Behavior>>#basicNew:
+Behavior>>#basicNew
+Object>>#perform:
+Object>>#perform:
+String>>#compareWith:collated:
+**StackOverflow**
+**StackOverflow**
+**StackOverflow**
+**StackOverflow**
+FullBlockClosure>>#value:
+**StackOverflow**
+Object>>#perform:
+String>>#compareWith:collated:
+Behavior>>#basicNew
+Object>>#shallowCopy
+String>>#compareWith:collated:
+String>>#compareWith:collated:
+Object>>#shallowCopy
+Behavior>>#basicNew
+ProtoObject>>#identityHash
+ProtoObject>>#identityHash
+Behavior>>#basicNew
+Behavior>>#basicNew
+Object>>#at:
+Object>>#at:
+Object>>#at:
+Behavior>>#basicNew
+Behavior>>#basicNew
+FullBlockClosure>>#value:
+FullBlockClosure>>#value:
+FullBlockClosure>>#value:
+**StackOverflow**
+FullBlockClosure>>#value:
+FullBlockClosure>>#value:
+FullBlockClosure>>#value:
+FullBlockClosure>>#value:
+Object>>#species
+Behavior>>#basicNew
+**StackOverflow**
+**StackOverflow**
+**StackOverflow**
+**StackOverflow**
+Object>>#shallowCopy
+Behavior>>#basicNew
+Object>>#shallowCopy
+**StackOverflow**
+Behavior>>#basicNew
+Array>>#new:
+Behavior>>#basicNew
+Object>>#shallowCopy
+Object>>#shallowCopy
+ProtoObject>>#identityHash
+Object>>#shallowCopy
+ProtoObject>>#identityHash
+Array>>#new:
+Object>>#perform:withArguments:
+SmalltalkImage>>#specialObjectsArray
+Object>>#at:
+SmalltalkImage>>#specialObjectsArray
+Object>>#at:
+Object>>#at:
+Object>>#perform:withArguments:
+SmalltalkImage>>#specialObjectsArray
+Object>>#at:
+ArrayedCollection>>#size
+SmallInteger>>#//
+SmalltalkImage>>#specialObjectsArray
+Object>>#at:
+SmallInteger>>#*
+Object>>#at:
+SmallInteger>>#=
+Object>>#perform:withArguments:
+SmallInteger>>#-
+Object>>#at:
+FullBlockClosure>>#value:
+Object>>#perform:withArguments:
+**StackOverflow**
+Object>>#perform:withArguments:
+String>>#compareWith:collated:
+Object>>#perform:
+CompiledCode>>#newMethod:header:
+ArrayedCollection>>#size
+Object>>#at:put:
+Object>>#at:
+CompiledCode>>#objectAt:put:
+Object>>#at:
+CompiledCode>>#objectAt:put:
+Behavior>>#basicNew
+Object>>#at:put:
+Object>>#at:put:
+FullBlockClosure>>#value:
+Object>>#at:put:
+Object>>#at:put:
+Object>>#at:put:
+ArrayedCollection>>#size
+CompiledCode>>#objectAt:
+CompiledCode>>#objectAt:put:
+String>>#compareWith:collated:
+Object>>#instVarAt:
+String>>#compareWith:collated:
+SmallInteger>>#+
+Object>>#instVarAt:
+ProtoObject>>#identityHash
+Object>>#perform:withArguments:
+Object>>#perform:withArguments:
+**StackOverflow**
+**StackOverflow**
+**StackOverflow**
+**StackOverflow**
+String>>#compareWith:collated:
+Object>>#perform:
+CompiledCode>>#newMethod:header:
+ArrayedCollection>>#size
+Object>>#at:put:
+Object>>#at:
+CompiledCode>>#objectAt:put:
+Object>>#at:
+CompiledCode>>#objectAt:put:
+Object>>#at:
+CompiledCode>>#objectAt:put:
+Object>>#at:
+CompiledCode>>#objectAt:put:
+**StackOverflow**
+Object>>#at:put:
+Object>>#at:put:
+Object>>#at:put:
+Object>>#at:put:
+ArrayedCollection>>#size
+CompiledCode>>#objectAt:
+CompiledCode>>#objectAt:put:
+CompiledCode>>#objectAt:put:
+**StackOverflow**
+**StackOverflow**
+**StackOverflow**
+String>>#compareWith:collated:
+String>>#compareWith:collated:
+Object>>#perform:
+Object>>#shallowCopy
+Object>>#shallowCopy
+Object>>#shallowCopy
+String>>#compareWith:collated:
+Object>>#shallowCopy
+String>>#compareWith:collated:
+Behavior>>#basicNew
+ArrayedCollection>>#size
+ArrayedCollection>>#size
+ArrayedCollection>>#size
+ArrayedCollection>>#size
+**StackOverflow**
+String>>#compareWith:collated:
+Object>>#perform:
+Object>>#shallowCopy
+String>>#compareWith:collated:
+Object>>#shallowCopy
+String>>#compareWith:collated:
+Behavior>>#basicNew
+Behavior>>#basicNew:
+Behavior>>#basicNew:
+Behavior>>#basicNew:
+Behavior>>#basicNew:
+Behavior>>#basicNew:
+UnsignedIntegerArray>>#atAllPut:
+UnsignedIntegerArray>>#atAllPut:
+Object>>#at:put:
+Object>>#species
+Behavior>>#basicNew:
+ByteArray>>#replaceFrom:to:with:startingAt:
+ArrayedCollection>>#size
+Object>>#species
+Object>>#species
+ByteArray>>#replaceFrom:to:with:startingAt:
+ZipWriteStream>>#deflateBlock:chainLength:goodMatch:
+ZipWriteStream>>#updateCrc:from:to:in:
+Behavior>>#basicNew
+Array>>#new:
+Behavior>>#basicNew
+Behavior>>#basicNew
+Array>>#new:
+Array>>#new:
+FullBlockClosure>>#value
+SmallInteger>>#=
+ArrayedCollection>>#size
+ZipEncoder>>#privateSendBlock:with:with:with:
+Object>>#at:
+ByteArray>>#byteAt:put:
+SmallInteger>>#bitShift:
+ByteArray>>#byteAt:put:
+SmallInteger>>#bitXor:
+ArrayedCollection>>#size
+ArrayedCollection>>#size
+ArrayedCollection>>#size
+ArrayedCollection>>#size
+ArrayedCollection>>#size
+ArrayedCollection>>#size
+ArrayedCollection>>#size
+Object>>#at:
+Object>>#at:
+Object>>#at:
+Object>>#perform:
+ArrayedCollection>>#size
+CompiledCode>>#newMethod:header:
+Object>>#at:put:
+Object>>#at:put:
+Object>>#at:put:
+Object>>#at:put:
+Object>>#shallowCopy
+CompiledCode>>#objectAt:put:
+CompiledCode>>#objectAt:put:
+CompiledCode>>#objectAt:put:
+CompiledCode>>#objectAt:put:
+Object>>#at:
+Object>>#at:put:
+Object>>#at:
+Object>>#at:put:
+Object>>#at:
+Object>>#at:put:
+Object>>#at:
+Object>>#at:put:
+Behavior>>#basicNew
+CompiledCode>>#objectAt:put:
+Object>>#withArgs:executeMethod:
+FullBlockClosure>>#value
+Behavior>>#basicNew
+
+
+Stack backtrace:
+	[00007ff7e9c47565] ??? + 0xa7565 in Squeak.exe
+
+
+Smalltalk stack dump:
+00000072d45e8fd8 M B3ArrayedValue class(Behavior)>new 00007ff7f0a3ef90: a(n) B3ArrayedValue
+00000072d45e9018 I [] in ExpressionEvaluator>DoIt 00007ff7ea40a570: a(n) ExpressionEvaluator
+00000072d45e9060 I ExpressionEvaluator>blockValue 00007ff7ea40a570: a(n) ExpressionEvaluator
+00000072d45e9090 M [] in ExpressionEvaluator>value 00007ff7ea40a570: a(n) ExpressionEvaluator
+00000072d45e90d0 M FullBlockClosure(BlockClosure)>on:do: 00007ff7ea4ae698: a(n) FullBlockClosure
+00000072d45e9120 M ExpressionEvaluator>value 00007ff7ea40a570: a(n) ExpressionEvaluator
+00000072d45e9150 M [] in ProxyPipeline>value 00007ff7ea4098b8: a(n) ProxyPipeline
+00000072d45e9190 M ProxyPipeline(OrderedCollection)>do: 00007ff7ea4098b8: a(n) ProxyPipeline
+00000072d45e91d8 I ProxyPipeline>value 00007ff7ea4098b8: a(n) ProxyPipeline
+00000072d45e9220 I CommandShell>evaluatePipeline: 00007ff7ea264428: a(n) CommandShell
+00000072d45e9260 M [] in CommandShell>evaluatePipelines: 00007ff7ea264428: a(n) CommandShell
+00000072d45e92a0 M OrderedCollection>do: 00007ff7ea409480: a(n) OrderedCollection
+00000072d45e92f8 I CommandShell>evaluatePipelines: 00007ff7ea264428: a(n) CommandShell
+00000072d45e9340 I CommandShell>command:echo: 00007ff7ea264428: a(n) CommandShell
+00000072d45e93a0 I [] in CommandShell>processCommand:echo: 00007ff7ea264428: a(n) CommandShell
+00000072d45e93e0 I [] in FullBlockClosure>newProcess 00007ff7ea3f0600: a(n) FullBlockClosure
+
+stack page bytes 4096 available headroom 1480 minimum unused headroom 1872
